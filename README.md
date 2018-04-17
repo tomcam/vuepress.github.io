@@ -1,5 +1,3 @@
-# vuepress.github.io
+# Vuepress notes
 
-hello, world.
-
-![Screen shot](/assets/img/starter1-vue-theme.png)
+* Creating a minimal [custom theme](custom1.md)
