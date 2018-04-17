@@ -106,7 +106,7 @@ module.exports = {
 Generate the site and run the server:
 
 ```bash
-$ vuepress build
+$ vuepress dev
 ```
 And visit your site:
 
