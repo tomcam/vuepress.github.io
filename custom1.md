@@ -22,7 +22,7 @@ $ sudo mkdir -p /usr/local/lib/node_modules/vuepress-theme-starter1
 $ cd /usr/local/lib/node_modules/vuepress-theme-starter1
 ```
 
-### Create the files Layout.vue and Home.vue
+## Create the files Layout.vue and Home.vue
 
 * Add this file to the theme directory and name it `Layout.vue`. Give it these contents:
 
@@ -105,7 +105,7 @@ module.exports = {
 }
 ```
 
-Generate the site and run the server:
+### Generate the site and run the server:
 
 ```bash
 $ vuepress dev
