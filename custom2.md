@@ -76,6 +76,7 @@ $ mkdir -p ~/code/vue/vuepress/demo2/.vuepress
 
 # Make it the working directory.
 $ cd ~/code/vue/vuepress/demo2
+```
 
 # Create the following README.md file:
 
