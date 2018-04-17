@@ -1,7 +1,7 @@
 ## Creating a minimal custom theme
 
 These notes show how to create a minimal custom theme from scratch and use it in a
-Vuepress site. The general outline is:
+[Vuepress](vuepress.vuejs.org) site. The general outline is:
 
 * Create a directory in `/usr/local/lib/node_modules` with `vuepress-theme-` as a prefix for your theme name. In this example the base theme name is `starter1`.
 * Create a minimal `Layout.vue` in that directory.
