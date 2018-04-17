@@ -81,9 +81,9 @@ $ cd ~/code/vue/vuepress/demo2
 # Create the following README.md file:
 
 ```
-# Writing the Score
+# Your First Lilypad Score
 
-This section goes through the creation of a simple socre
+This section goes through the creation of a simple score
 
 ## The minimum file
 
