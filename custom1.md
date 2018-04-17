@@ -110,5 +110,5 @@ $ vuepress build
 ```
 And visit your site:
 
-![Screen shot of the minimal VuePress theme named starter1 ](/assets/starter1-vue-theme.png)
+![Screen shot of the minimal VuePress theme named starter1 ](/assets/img/starter1-vue-theme.png)
 
