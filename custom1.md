@@ -1,4 +1,6 @@
-# Creating a minimal custom theme
+[Home](https://tomcam.github.io/vuepress.github.io/) 
+
+# Creating a minimal Vuepress custom theme
 
 These notes show how to create a minimal custom theme from scratch and use it in a
 [Vuepress](vuepress.vuejs.org) site. The general outline is:
@@ -116,5 +118,5 @@ And visit your site:
 
 You can find a repository at https://github.com/tomcam/vuepress-theme-starter1.
 
-Next: Add [Styles](./custom2.md) to your custom theme.
+[Home](https://tomcam.github.io/vuepress.github.io/) Next: Add [Styles](./custom2.md) to your custom theme.
 
