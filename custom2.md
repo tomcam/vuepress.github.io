@@ -142,7 +142,7 @@ $ vuepress dev
 ```
 And visit your site:
 
-![Screen shot of the minimal VuePress theme named starter1 ](/assets/img/starter2-vuepress-custom-theme.png)
+![Screen shot of the minimal VuePress theme named starter1](/assets/img/starter2-vuepress-custom-theme.png)
 
 ## Put styles in a /styles/ directory for reuse
 
