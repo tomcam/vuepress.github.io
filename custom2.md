@@ -24,7 +24,7 @@ all other web pages in your Vuepress installation.
 
 For clarity Vuepress preprocesses the styles you define. [Stylus](http://stylus-lang.com/), 
 the source language, resembles YAML or a simplfied version of CSS. For example, instead of
-changing the color of <h1> headers to red like this:
+changing the color of `<h1>` headers to red like this:
 
 ```css
 /* Old hotness: CSS */
