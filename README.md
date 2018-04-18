@@ -1,6 +1,6 @@
-# Vuepress
+# Vuepress Book
 
-[Read this online](https://tomcam.github.io/vuepress.github.io)
+Read the [Vuepress book online](http://www.vuepressbook.com) at [http://www.vuepressbook.com](http://www.vuepressbook.com)
 
 ## Creating custom Vuepress themes
 
