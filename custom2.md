@@ -101,7 +101,7 @@ $ mkdir -p ~/code/vue/vuepress/demo2/.vuepress
 $ cd ~/code/vue/vuepress/demo2
 ```
 
-# Create the following README.md file:
+* Create the following README.md file:
 
 ```
 # Your First Lilypad Score
