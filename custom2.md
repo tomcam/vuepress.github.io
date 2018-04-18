@@ -1,4 +1,6 @@
-# Adding style to a custom theme
+[Home](https://tomcam.github.io/vuepress.github.io/)
+
+# Adding style to a custom Vuepress theme
 
 [Creating a minimal custom theme](./custom1.md) showed how to create the smallest possible
 Vuepress theme. Let's add some styling to it. The theme is called `starter2`.
@@ -206,3 +208,5 @@ inline styles with an `@import` statement as follows:
 If everything went well your site looks identical, but now you'll find it easier to create templates.
 
 You can find a repository at https://github.com/tomcam/vuepress-theme-starter2
+
+[Previous: Creating a minimal custom theme](custom1.md) [Home](https://tomcam.github.io/vuepress.github.io/) 
