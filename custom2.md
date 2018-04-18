@@ -148,7 +148,7 @@ And visit your site:
 
 ## Put styles in a /styles/ directory for reuse
 
-One of the best parts about static site generators is that encourage modular CSS use.
+One of the best parts about static site generators is that they encourage modular CSS use.
 Vuepress tends to put its styles in small files, clearly defined by purpose. 
 The convention is to put a `/styles/` directory in the theme's root directory.
 
