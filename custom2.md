@@ -39,6 +39,8 @@ h1
   color: red
 ```
 
+### Layout.vue
+
 * Add this file to the theme directory and name it `Layout.vue`. Give it these contents:
 
 ```
@@ -133,7 +135,7 @@ module.exports = {
 }
 ```
 
-### Generate the site and run the server:
+## Generate the site and run the server:
 
 ```bash
 $ vuepress dev
@@ -141,5 +143,66 @@ $ vuepress dev
 And visit your site:
 
 ![Screen shot of the minimal VuePress theme named starter1 ](/assets/img/starter2-vuepress-custom-theme.png)
+
+## Put styles in a /styles/ directory for reuse
+
+One of the best parts about static site generators is that encourage modular CSS use.
+Vuepress tends to put its styles in small files, clearly defined by purpose. 
+The convention is to put a `/styles/` directory in the theme's root directory.
+
+* Create a `/styles/` directory in the theme directory.
+
+```bash
+$ sudo mkdir /usr/local/lib/node_modules/vuepress-theme-starter2/styles
+```
+
+The styles defined in `Layout.vue` are of general use in most pages, so we'll create a separate
+style sheet module for them called `theme.styl`.
+
+* Create the [Stylus](http://stylus-lang.com/) file named `/usr/local/lib/node_modules/vuepress-theme-starter2/styles/theme.styl` with the following contents:
+
+```
+html, body
+  padding 0
+  margin 1em 5em 10em 5em
+
+body
+  font-family -apple-system, "Droid Sans", sans-serif
+  font-size 16px
+
+strong
+  font-weight 600
+
+h1, h2, h3, h4, h5, h6
+  font-weight 600
+  line-height 1.25
+
+h1
+  color: #231F20
+
+h2
+  color: #BB4430
+
+a
+  color: #7EBDC2
+
+p, ul, ol
+  line-height 1.7
+```
+
+* Modify `/usr/local/lib/node_modules/vuepress-theme-starter2/Layout.vue` by replacing the
+inline styles with an `@import` statement as follows:
+
+```
+<template>
+    <Content/>
+</template>
+
+<style lang="stylus">
+@import './styles/theme.styl'
+</style>
+```
+
+If everything went well your site looks identical, but now you'll find it easier to create templates.
 
 You can find a repository at https://github.com/tomcam/vuepress-theme-starter2
