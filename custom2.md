@@ -18,13 +18,34 @@ $ cd /usr/local/lib/node_modules/vuepress-theme-starter2
 
 ## Create the files Layout.vue and Home.vue
 
+The file `Layout.vue` is important because it's the default template for
+all web pages. Styles you add to `Layout.vue` are accessible to
+all other web pages in your Vuepress installation.
+
+For clarity Vuepress preprocesses the styles you define. [Stylus](http://stylus-lang.com/), 
+the source language, resembles YAML or a simplfied version of CSS. For example, instead of
+changing the color of <h1> headers to red like this:
+
+```css
+/* Old hotness: CSS */
+h1 { color: red; }
+```
+
+You use Stylus:
+
+```YAML
+// Stylus is the new hotness
+h1
+  color: red
+```
+
 * Add this file to the theme directory and name it `Layout.vue`. Give it these contents:
 
 ```
-
 <template>
     <Content/>
 </template>
+
 <style lang="stylus">
 html, body
   padding 0
@@ -101,7 +122,7 @@ Create the file `./vuepress/config.js`:
 $ vim .vuepress/config.js
 ```
 
-Contents of `./vuepress/config.js`:
+Edit `./vuepress/config.js` so it looks like this:
 
 ```
 const base = process.env.GH ? '/vuepress/' : '/'
