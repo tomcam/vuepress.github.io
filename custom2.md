@@ -124,7 +124,7 @@ Create the file `./vuepress/config.js`:
 $ vim .vuepress/config.js
 ```
 
-Edit `./vuepress/config.js` so it looks like this:
+* Edit `./vuepress/config.js` so it looks like this:
 
 ```
 const base = process.env.GH ? '/vuepress/' : '/'
