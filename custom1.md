@@ -118,5 +118,5 @@ And visit your site:
 
 You can find a repository at https://github.com/tomcam/vuepress-theme-starter1.
 
-[Home](https://tomcam.github.io/vuepress.github.io/) Next: Add [Styles](./custom2.md) to your custom theme.
+[Home](https://tomcam.github.io/vuepress.github.io/) [Next: Add styles to your custom theme](./custom2.md)
 
