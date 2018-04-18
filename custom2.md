@@ -205,8 +205,10 @@ inline styles with an `@import` statement as follows:
 </style>
 ```
 
-If everything went well your site looks identical, but now you'll find it easier to create templates.
+If everything went well your site looks the same as when the styles were defined inline, 
+but now you'll find it easier to create sites using multiple templates per page, and 
+to remember which styles are used for what part of each page.
 
 You can find a repository at https://github.com/tomcam/vuepress-theme-starter2
 
-[Previous: Creating a minimal custom theme](custom1.md) [Home](https://tomcam.github.io/vuepress.github.io/) 
+[Previous: Creating a minimal custom theme](custom1.md) | [Home](https://tomcam.github.io/vuepress.github.io/) 
