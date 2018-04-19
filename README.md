@@ -22,7 +22,7 @@ Read the [Vuepress book online](http://www.vuepressbook.com) at [http://www.vuep
 * Location for custom themes: `usr/local/lib/node_modules`
 * Location of default theme files on MacOS is: `/usr/local/lib/node_modules/vuepress/lib/default-theme/`
 * Markup extensions supported by the default theme are [here](https://github.com/vuejs/vuepress/blob/master/lib/markdown/index.js)
-* [Vuepres website](https://github.com/vuejs/vuepress/tree/master/docs) source
+* [Vuepress website](https://github.com/vuejs/vuepress/tree/master/docs) source
 * [Stylus: Expressive, Dynamic, Robust CSS](http://stylus-lang.com/)
 
 ## Tutorials
