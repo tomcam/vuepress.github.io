@@ -3,9 +3,10 @@
 ## Technical references
 
 * VuePress [Guide](https://vuepress.vuejs.org/guide/)
-* [Source](https://github.com/vuejs/vuepress/tree/master/lib/default-theme) for default theme
-  - [Layout.vue](https://github.com/vuejs/vuepress/blob/master/lib/default-theme/Layout.vue)
-  - [Home.vue](https://github.com/vuejs/vuepress/blob/master/lib/default-theme/Home.vue)
+* [Default theme](https://github.com/vuejs/vuepress/tree/master/lib/default-theme) for default theme
+  - [Layout.vue source](https://github.com/vuejs/vuepress/blob/master/lib/default-theme/Layout.vue)
+  - [Home.vue source](https://github.com/vuejs/vuepress/blob/master/lib/default-theme/Home.vue)
+  - [YAML front matter](https://vuepress.vuejs.org/default-theme-config/#homepage) for home page
 * [Custom themes](https://vuepress.vuejs.org/guide/custom-themes.html)
 * The "[simplest theme](https://vuepress.vuejs.org/guide/custom-themes.html#content-outlet)"
 * [Custom layout for specific pages](https://vuepress.vuejs.org/default-theme-config/#custom-layout-for-specific-pages)
