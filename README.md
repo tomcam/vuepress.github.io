@@ -25,6 +25,7 @@ Read the [Vuepress book online](http://www.vuepressbook.com) at [http://www.vuep
 * [Stylus: Expressive, Dynamic, Robust CSS](http://stylus-lang.com/)
 
 ### Markdown
+* [Vuepress markdown](https://vuepress.vuejs.org/guide/markdown.html)
 * [Original Markdown Description](https://daringfireball.net/projects/markdown/syntax) by Jon Gruber
 * Markdown extensions supported by the default theme are [here](https://github.com/vuejs/vuepress/blob/master/lib/markdown/index.js)
 
