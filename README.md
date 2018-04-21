@@ -21,9 +21,12 @@ Read the [Vuepress book online](http://www.vuepressbook.com) at [http://www.vuep
 * [Custom layout for specific pages](https://vuepress.vuejs.org/default-theme-config/#custom-layout-for-specific-pages)
 * Location for custom themes: `usr/local/lib/node_modules`
 * Location of default theme files on MacOS is: `/usr/local/lib/node_modules/vuepress/lib/default-theme/`
-* Markup extensions supported by the default theme are [here](https://github.com/vuejs/vuepress/blob/master/lib/markdown/index.js)
 * [Vuepress website](https://github.com/vuejs/vuepress/tree/master/docs) source
 * [Stylus: Expressive, Dynamic, Robust CSS](http://stylus-lang.com/)
+
+### Markdown
+* [Original Markdown Description](https://daringfireball.net/projects/markdown/syntax) by Jon Gruber
+* Markdown extensions supported by the default theme are [here](https://github.com/vuejs/vuepress/blob/master/lib/markdown/index.js)
 
 ## Tutorials
 * [Zero to Deploy: Build a Documentation System with VuePress](https://scotch.io/tutorials/zero-to-deploy-build-a-documentation-system-with-vue-and-vuepress)
