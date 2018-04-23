@@ -141,7 +141,7 @@ when you paste in that link it will be pasted as `http://localhost:8080/#locatio
 just `http://localhost:8080`.
 
 Any good website used for reference purposes should use descriptive anchors like this. Vuepress
-generates them automatically.
+generates them automatically. If you don't like this feature, it can be disabled. More on this later.
 
 
 
