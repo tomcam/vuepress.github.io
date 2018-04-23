@@ -18,17 +18,17 @@ heroText: Springfield Dim Sum
 heroImage: heroImage: /img/springfield-dim-sum-800px.png
 ---
 
-You will of course create a new subdirectory named `/img/` and to put that image into it.
-
-Thanks to [gnokii](https://openclipart.org/user-detail/gnokii) at 
-[openclipart](https://openclipart.org) for 
-[this image](https://openclipart.org/detail/133159/chinese-fast-food).
-
 ## Location and Directions
   
 ```
 
+You will of course need to create a new subdirectory named `/img/` and to put that image into it.
+
 The results immediately appear, assuming you're still running `vuepress dev` inside your project directory:
 
 ![Screen shot of home page with hero text](/assets/img/default1-heroimage.png)
+
+Thanks to [gnokii](https://openclipart.org/user-detail/gnokii) at 
+[openclipart](https://openclipart.org) for 
+[this image](https://openclipart.org/detail/133159/chinese-fast-food).
 
