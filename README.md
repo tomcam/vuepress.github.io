@@ -29,6 +29,11 @@ Read the [Vuepress book online](http://www.vuepressbook.com) at [http://www.vuep
 * [Original Markdown Description](https://daringfireball.net/projects/markdown/syntax) by Jon Gruber
 * Markdown extensions supported by the default theme are [here](https://github.com/vuejs/vuepress/blob/master/lib/markdown/index.js)
 
+### YAML
+* [YAML official site](http://yaml.org/)
+* [Darvid's YAML Primer](https://github.com/darvid/trine/wiki/YAML-Primer)
+* [Robot Has No Heard YAML Tutorial](https://rhnh.net/2011/01/31/yaml-tutorial/)
+
 ## Tutorials
 * [Zero to Deploy: Build a Documentation System with VuePress](https://scotch.io/tutorials/zero-to-deploy-build-a-documentation-system-with-vue-and-vuepress)
 
