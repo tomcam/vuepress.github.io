@@ -16,11 +16,28 @@ home: true
 ---
 ```
 
-## YAML is different depending on the theme
+## YAML may contain comments
+
+Lines starting with a pound sign (`#`) act as comments. So the above YAML could
+be written as follows and would result in the same output.
+
+Example YAML beginning a file:
+
+```yaml
+---
+# Specific to Vuepress default theme 
+# for home pages 
+home: true
+heroText: Springfield Dim Sum
+---
+```
+
+## Vuepress YAML is different depending on the theme
 
 Most YAML directives depend on the theme itself. This section assumes you're using the Vuepress default theme.
+Other Vuepress themes will have different YAML options.
 
-Let's see YAML in action.
+Let's YAML in action. We'll use it to add a big centered title to the home page.
 
 ## Adding Hero text to the home page
 
@@ -41,3 +58,8 @@ heroText: Springfield Dim Sum
 ## Location and Directions
   
 ```
+
+The results immediately appear, assuming you're still running `vuepress dev` inside your project directory:
+
+![Screen shot of finding Terminal using Spotlight](/assets/img/default-herotext.png)
+
