@@ -2,9 +2,15 @@
 
 Read the [Vuepress book online](http://www.vuepressbook.com) at [http://www.vuepressbook.com](http://www.vuepressbook.com)
 
+## Using the default Vuepress theme
+* [Creating your home page](./default1.md)
+* [Adding YAML front matter to a Markdown page](./default2.md)
+* [Adding hero text to the home page](./default3.md)
+* [Adding a hero image to the home page](./default4.md)
+
 ## Creating custom Vuepress themes
 
-1. [Creating a minimal custom theme](custom1.md) (Download custom Vuepress theme [starter1](https://github.com/tomcam/vuepress-theme-starter1))
+1. [Creating a minimal custom theme](./custom1.md) (Download custom Vuepress theme [starter1](https://github.com/tomcam/vuepress-theme-starter1))
 2. [Add styling](custom2.md) to your Vuepress theme (Download custom Vuepress theme [starter2](https://github.com/tomcam/vuepress-theme-starter2))
 
 # Reference
