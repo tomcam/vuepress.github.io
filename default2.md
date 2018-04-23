@@ -61,5 +61,5 @@ heroText: Springfield Dim Sum
 
 The results immediately appear, assuming you're still running `vuepress dev` inside your project directory:
 
-![Screen shot of finding Terminal using Spotlight](/assets/img/default-herotext.png)
+![Screen shot of home page with hero text](/assets/img/default-herotext.png)
 
