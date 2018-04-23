@@ -32,3 +32,5 @@ Read the [Vuepress book online](http://www.vuepressbook.com) at [http://www.vuep
 ## Tutorials
 * [Zero to Deploy: Build a Documentation System with VuePress](https://scotch.io/tutorials/zero-to-deploy-build-a-documentation-system-with-vue-and-vuepress)
 
+## SEO and organizing your site
+* Google Search Engine Optimization (SEO) Starter Guide: [Organize your site hierarchy](https://support.google.com/webmasters/answer/7451184/#hierarchy)
