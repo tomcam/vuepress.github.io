@@ -127,13 +127,21 @@ Here's what you'll see:
 
 Although this is nominally a bare theme, you can already see it has a few advantages over a normal, blank HTML page. 
 It has an attractive set of defaults for font, margins, and so on, and these will be uniform over all reasonably 
-modern browsers.
-
+modern browsers. And there's something else that works great for technical documentation.
 
 ### Default theme feature: Markdown anchors
 
+Move your mouse or touch over the headline and you'll see a pound sign appear.
 
 ![Screen shot of first default theme home page with h2](/assets/img/default1-anchor.png)
+
+That represents a link to this exact location on the page (called an anchor, corresponding to an
+anchor tag in HTML). If you right-click it and choose to copy the link from the context menu, 
+when you paste in that link it will be pasted as `http://localhost:8080/#location-and-directions`, not
+just `http://localhost:8080`.
+
+Any good website used for reference purposes should use descriptive anchors like this. Vuepress
+generates them automatically.
 
 
 
