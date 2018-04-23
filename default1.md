@@ -133,7 +133,7 @@ modern browsers. And there's something else that works great for technical docum
 
 Move your mouse or touch over the headline and you'll see a pound sign appear.
 
-![Screen shot of first default theme home page with h2](/assets/img/default1-anchor.png)
+![Screen shot of first default theme showing Markdown anchor](/assets/img/default1-anchor.png)
 
 That represents a link to this exact location on the page (called an anchor, corresponding to an
 anchor tag in HTML). If you right-click it and choose to copy the link from the context menu, 
