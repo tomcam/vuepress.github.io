@@ -1,4 +1,4 @@
-# Vuepress default theme tutorial
+# Vuepress default theme tutorial: creating your home page
 
 This is a step-by-step guide to creating a simple site
 using the VuePress default theme. It's for an imaginary
@@ -87,7 +87,7 @@ with a level 2 header (`##`, as shown above). That's because the level 1 header
 is provided by the `heroText` YAML markup, to be explained later.
 :::
 
-## Running `vuepress dev`
+## Running vuepress dev
 
 `README.md` is all you need to create a minimal Vuepress site. Let's take a look at your progress so far. Run `vuepress dev` on your command line:
 
