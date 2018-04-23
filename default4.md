@@ -3,9 +3,9 @@
 Another feature you can add to a home page using the Vuepress default theme is a big, defining picture called a hero image. 
 You add the hero image using YAML just like the `heroText` header added in the previous section.
 
-* Add the YAML line `heroImage: /img/springfield-dim-sum-800px.png`, directs that the hero image to be used
+* Add the YAML line `heroImage: /img/springfield-dim-sum-800px.png`, 
+which directs that the hero image to be used
 is in the directory `/img`.
-
 
 The next thing to add is the directive `heroText: Springfield Dim Sum`. 
 
