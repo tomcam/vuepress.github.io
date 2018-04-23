@@ -2,7 +2,7 @@
 
 Read the [Vuepress book online](http://www.vuepressbook.com) at [http://www.vuepressbook.com](http://www.vuepressbook.com)
 
-## Using the default Vuepress theme
+## Creating a website with the default Vuepress theme
 * [Creating your home page](./default1.md)
 * [Adding YAML front matter to a Markdown page](./default2.md)
 * [Adding hero text to the home page](./default3.md)
