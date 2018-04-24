@@ -19,7 +19,7 @@ home: true
 ## YAML is optional
 
 Not all files contain YAML. It is very likely to appear on your home page, but
-it's possible that many pages in your site with simpler formatting won't needed it.
+it's possible that many interior pages in your site with simpler formatting won't needed it.
 
 ## YAML may contain comments
 
