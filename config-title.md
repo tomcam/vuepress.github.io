@@ -36,9 +36,41 @@ In a moment you'll see a change:
 
 ![Screen shot of home page with title from config.js](/assets/img/config-title.png)
 
-Explore these new features. For example, click the search icon and type something in:
+Explore these new features. For example, click the search icon and type something, 
+for example, `L` for lunch.
 
-![Screen shot of home page with the user typing in "S" then "E"](/assets/img/config-title-start-search.png)
+![Screen shot of home page with the user typing in "L"](/assets/img/config-title-start-search.png)
 
+For the purposes of this demo, we created these minimal files and placed
+them in the project's root directory:
+
+##### lunch.md
+
+```
+# Lunch menu
+```
+
+##### dinner.md
+
+```
+# Dinner menu
+```
+
+* Choose the `Lunch menu` item to see that page:
+
+![Screen shot of minimal "lunch.md" page](/assets/img/config-title-lunch.png)
+
+Note how the VuePress default them has built links to the dinner menu and the home page.
+
+* Choose the `Dinner menu` item.
+
+![Screen shot of minimal "dinner.md" page](/assets/img/config-title-dinner.png)
+
+Now you see links to the the home page and the lunch menu.
+
+## Links are named after the first header in the markup file
+
+You can see that VuePress automatically titled pages by reading the first header from each file. It orders
+them alphabetically, by file name.
 
 
