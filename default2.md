@@ -25,16 +25,16 @@ Example YAML beginning a file:
 
 ```yaml
 ---
-# Specific to Vuepress default theme 
+# Specific to VuePress default theme 
 # for home pages 
 home: true
 heroText: Springfield Dim Sum
 ---
 ```
 
-## Vuepress YAML is different depending on the theme
+## VuePress YAML is different depending on the theme
 
-Most YAML directives depend on the theme itself. This section assumes you're using the Vuepress default theme.
-Other Vuepress themes will have different YAML options.
+Most YAML directives depend on the theme itself. This section assumes you're using the VuePress default theme.
+Other VuePress themes will have different YAML options.
 
 Let's YAML in action. We'll use it to add a big centered title to the home page.
