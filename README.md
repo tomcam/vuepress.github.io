@@ -7,7 +7,7 @@ Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuep
 * [Adding YAML front matter to a Markdown page](./default2.md)
   - [Adding hero text to the home page](./default3.md)
   - [Adding a hero image to the home page](./default4.md)
-  - [Adding a "features" markup to the home page](./default5.md)
+  - [Adding "features" markup to the home page](./default5.md)
   - [Adding a "tagline" YAML markup to the home page](./default6.md)
   - [Adding an action link to the home page with YAML](./default7.md)  
 
