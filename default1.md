@@ -6,7 +6,7 @@ restaurant named Springfield Dim Sum.
 
 ## Workflow
 
-After you've installed [npm](https://www.npmjs.com/) and [Vuepress](https://vuepress.vuejs.org/guide/getting-started.html)
+After you've installed [npm](https://www.npmjs.com/) and [VuePress](https://vuepress.vuejs.org/guide/getting-started.html)
 the typical workflow described here is as follows:
 
 * Create a working directory and change to it
@@ -14,14 +14,14 @@ the typical workflow described here is as follows:
 called [markdown](https://en.wikipedia.org/wiki/Markdown), with the home page always named `README.md`,
 and save them in the working directory
 * Open a terminal window and run `vuepress dev` on the command line. This generates a website from
-your Vuepress source files, which include at a minimum `README.md`, and runs a webserver on your computer
+your VuePress source files, which include at a minimum `README.md`, and runs a webserver on your computer
 * Open a browser window to [http://localhost:8080/](http://localhost:8080/) to see the live site
-* Make changes to your markup files or create new ones. Vuepress sees they've been created and 
+* Make changes to your markup files or create new ones. VuePress sees they've been created and 
 automatically generates new output each time you save a file
 
 ## Opening a terminal
 
-You'll need to drop into your operating system's command line to use Vuepress. First open
+You'll need to drop into your operating system's command line to use VuePress. First open
 a terminal.
 
 ### Opening a terminal on MacOS
@@ -44,11 +44,11 @@ do this once.
 
 Now you'll be able to start the terminal much faster next time.
 
-## Creating the directories for your Vuepress site.
+## Creating the directories for your VuePress site.
 
 Go to your normal work area, create the working directory, and move to it. 
 
-In this case you would replace `~/code/vue/vuepress` with wherever you choose to put your Vuepress files. This site’s directory is creatively called `demo1`. 
+In this case you would replace `~/code/vue/vuepress` with wherever you choose to put your VuePress files. This site’s directory is creatively called `demo1`. 
 
 * The first thing to do is to create the working directory and a subdirectory under it named `.vuepress` (don't forget that it starts with the period character). You can create them all at once like this:
 
@@ -71,7 +71,7 @@ $ cd ~/code/vue/vuepress/demo1
 
 ## Creating a minimal home page, which consists a file named README.md with a single header.
 
-A Vuepress site is a directory containing at least a file named README.md in Markdown form with at *least
+A VuePress site is a directory containing at least a file named README.md in Markdown form with at *least
 one header.* Open your favorite text editor (not Apple Pages or Microsoft, because they add
 formatting that won't convert properly) and create a file named `README.md` with the following contents:
 
@@ -81,7 +81,7 @@ formatting that won't convert properly) and create a file named `README.md` with
 
 <!-- tip TIP FOR DEFAULT THEME USERS -->
 ::: tip 
-If you're using the Vuepress default theme to create your home page (and you are in this example), 
+If you're using the VuePress default theme to create your home page (and you are in this example), 
 you should start
 with a level 2 header (`##`, as shown above). That's because the level 1 header
 is provided by the `heroText` YAML markup, to be explained later.
@@ -89,7 +89,7 @@ is provided by the `heroText` YAML markup, to be explained later.
 
 ## Running vuepress dev
 
-`README.md` is all you need to create a minimal Vuepress site. Let's take a look at your progress so far. Run `vuepress dev` on your command line:
+`README.md` is all you need to create a minimal VuePress site. Let's take a look at your progress so far. Run `vuepress dev` on your command line:
 
 ```bash
 $ vuepress dev
@@ -123,7 +123,7 @@ Here's what you'll see:
 ![Screen shot of first default theme home page with h2](/assets/img/default1-h2.png)
 
 
-## Taking a look at special Vuepress default theme features
+## Taking a look at special VuePress default theme features
 
 Although this is nominally a bare theme, you can already see it has a few advantages over a normal, blank HTML page. 
 It has an attractive set of defaults for font, margins, and so on, and these will be uniform over all reasonably 
