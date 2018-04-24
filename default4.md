@@ -1,6 +1,6 @@
 # Adding a Hero image to the home page
 
-Another feature you can add to a home page using the Vuepress default theme is a big, defining picture called a hero image. 
+Another feature you can add to a home page using the VuePress default theme is a big, defining picture called a hero image. 
 You add the hero image using YAML just like the `heroText` header added in the previous section.
 
 Here's an example:
