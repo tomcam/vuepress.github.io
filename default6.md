@@ -1,6 +1,6 @@
 # Adding a tagline to the home page
 
-The default theme's home page template has a tagline that's meant to go just under the hero text. It looks like this:
+The VuePress default theme's home page template has a tagline that's meant to go just under the hero text. It looks like this:
 
 ![Screen shot of home page with 1 feature markup](/assets/img/default1-tagline-labeled.png)
 
