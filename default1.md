@@ -58,7 +58,7 @@ In this case you would replace `~/code/vue/vuepress` with wherever you choose to
 $ mkdir -p ~/code/vue/vuepress/demo1/.vuepress
 ```
 
-::: tip
+::: 
 Always create the .vuepress sudirectory. It's not used at the moment but will be. All
 VuePress sites for other the tiniest demos require it.
 :::
