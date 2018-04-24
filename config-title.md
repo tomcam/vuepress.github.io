@@ -11,7 +11,7 @@ First, let's take a look at a simple site with no `config.sys` at all:
 
 The README.md for such a site would look like this:
 
-#### file README.md
+###### file README.md
 ```yaml
 ---
 home: true 
@@ -28,7 +28,7 @@ features:
 
 * Now create the file `/.vuepress/config.js` with the following contents:
 
-###### file /.vuepress/config.s
+###### file /.vuepress/config.js
 ```javascript
 module.exports = {
     title: "Dim Sum!"
