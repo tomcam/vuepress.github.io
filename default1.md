@@ -69,7 +69,7 @@ VuePress sites for other the tiniest demos require it.
 $ cd ~/code/vue/vuepress/demo1
 ```
 
-## Creating a minimal home page, which consists a file named README.md with a single header.
+## Creating a minimal home page
 
 A VuePress site is a directory containing at least a file named README.md in Markdown form with at *least
 one header.* Open your favorite text editor (not Apple Pages or Microsoft, because they add
