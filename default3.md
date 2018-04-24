@@ -1,11 +1,11 @@
 
 # Adding Hero text to the home page
 
-The Vuepress default theme has tons of features, and many of them are designed solely for the
+The VuePress default theme has tons of features, and many of them are designed solely for the
 home page. The first thing to do is to add the YAML line `home: true`, which is a directive that 
-Vuepress use the [Home.vue template](https://github.com/vuejs/vuepress/blob/master/lib/default-theme/Home.vue).
+VuePress use the [Home.vue template](https://github.com/vuejs/vuepress/blob/master/lib/default-theme/Home.vue).
 
-The [tutorial](./default1.md) instructed that when using the Vuepress default theme it's best to start your markup 
+The [tutorial](./default1.md) instructed that when using the VuePress default theme it's best to start your markup 
 with `## headline goes here`, which translates to a level 2 HTML header (i.e. `<h2>` tag). It pays off
 here, because it's best that you use the hero text feature for your level 1 header on the home page.
 
