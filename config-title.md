@@ -38,7 +38,7 @@ In a moment you'll see a change:
 
 Explore these new features. For example, click the search icon and type something in:
 
-![Screen shot of home page with the user typing in "S" then "E"](/assets/img/config-start-search.png)
+![Screen shot of home page with the user typing in "S" then "E"](/assets/img/config-title-start-search.png)
 
 
 
