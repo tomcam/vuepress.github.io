@@ -11,7 +11,7 @@ the typical workflow described here is as follows:
 
 * Create a working directory and change to it
 * Write markup files (text files with names ending in `.md` following a simple formatting convention
-called [markdown](https://en.wikipedia.org/wiki/Markdown), with the home page always named `README.md`,
+called [markdown](https://en.wikipedia.org/wiki/Markdown)), with the home page always named `README.md`,
 and save them in the working directory
 * Open a terminal window and run `vuepress dev` on the command line. This generates a website from
 your VuePress source files, which include at a minimum `README.md`, and runs a webserver on your computer
