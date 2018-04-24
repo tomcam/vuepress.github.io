@@ -1,6 +1,6 @@
 [Home](https://tomcam.github.io/vuepress.github.io/) 
 
-# Creating a minimal Vuepress custom theme
+# Creating a minimal VuePress custom theme
 
 These notes show how to create a minimal custom theme from scratch and use it in a
 [Vuepress](vuepress.vuejs.org) site. The general outline is:
@@ -69,7 +69,7 @@ export default {
 ```
 -->
 
-## Create a Vuepress site
+## Create a VuePress site
 
 Go to your normal work area and generate a Vuepress site. In this case
 you would replace ~/code/vue/vuepress with wherever you choose to put
