@@ -1,6 +1,6 @@
 # Adding "feature" YAML markup to the home page
 
-The Vuepress default theme has markup that displays a headline-like feature, and a smaller
+The VuePress default theme has markup that displays a headline-like feature, and a smaller
 headline-like text explanation. It's all meant to advertise features of your
 product. These are added using YAML markup called `feature` that, again,
 is unique to the Vuepress default theme.
