@@ -5,9 +5,10 @@ Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuep
 ## Creating a website with the default VuePress theme
 * [Creating your home page](./default1.md)
 * [Adding YAML front matter to a Markdown page](./default2.md)
-* [Adding hero text to the home page](./default3.md)
-* [Adding a hero image to the home page](./default4.md)
-* [Adding a "feature" markup to the home page](./default5.md)
+  - [Adding hero text to the home page](./default3.md)
+  - [Adding a hero image to the home page](./default4.md)
+  - [Adding a "feature" markup to the home page](./default5.md)
+  - [Adding a "tagline" YAML markup to the home page](./default5.md)
 
 ## Creating custom Vuepress themes
 
