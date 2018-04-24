@@ -1,8 +1,8 @@
-# Vuepress Book
+# VuePress Book
 
-Read the [Vuepress book online](http://www.vuepressbook.com) at [http://www.vuepressbook.com](http://www.vuepressbook.com)
+Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuepressbook.com](http://www.vuepressbook.com)
 
-## Creating a website with the default Vuepress theme
+## Creating a website with the default VuePress theme
 * [Creating your home page](./default1.md)
 * [Adding YAML front matter to a Markdown page](./default2.md)
 * [Adding hero text to the home page](./default3.md)
@@ -32,7 +32,7 @@ Read the [Vuepress book online](http://www.vuepressbook.com) at [http://www.vuep
 * [Stylus: Expressive, Dynamic, Robust CSS](http://stylus-lang.com/)
 
 ### Markdown
-* [Vuepress markdown](https://vuepress.vuejs.org/guide/markdown.html)
+* [VuePress markdown](https://vuepress.vuejs.org/guide/markdown.html)
 * [Original Markdown Description](https://daringfireball.net/projects/markdown/syntax) by Jon Gruber
 * Markdown extensions supported by the default theme are [here](https://github.com/vuejs/vuepress/blob/master/lib/markdown/index.js)
 
