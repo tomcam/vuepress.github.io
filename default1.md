@@ -80,7 +80,8 @@ formatting that won't convert properly) and create a file named `README.md` with
 ```
 
 <!-- tip TIP FOR DEFAULT THEME USERS -->
-::: tip 
+
+::: 
 If you're using the VuePress default theme to create your home page (and you are in this example), 
 you should start
 with a level 2 header (`##`, as shown above). That's because the level 1 header
