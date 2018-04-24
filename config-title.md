@@ -44,13 +44,13 @@ for example, `L` for lunch.
 For the purposes of this demo, we created these minimal files and placed
 them in the project's root directory:
 
-##### lunch.md
+##### file lunch.md
 
 ```
 # Lunch menu
 ```
 
-##### dinner.md
+###### file dinner.md
 
 ```
 # Dinner menu
