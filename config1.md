@@ -2,7 +2,9 @@
 
 VuePress sites have a (sometimes hidden)`.vuepress`  subdirectory and the
 most important file there is a Javascript file named `config.js`.
-It contains, surprise surprise, declarations of objects used to configure your site.
+It contains, surprise surprise, declarations of objects used to configure your site
+as a whole. (Most configuration options for individual pages are done
+through [YAML](./default2.md) markup right on those pages.)
 
 Its full pathname, assuming your project directory is `~/demo1`, would be
 `~/demo1/.vuepress/config.js`.
