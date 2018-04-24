@@ -28,8 +28,8 @@ features:
 
 * Now create the file `/.vuepress/config.js` with the following contents:
 
-```javascript
 ###### file /.vuepress/config.s
+```javascript
 module.exports = {
     title: "Dim Sum!"
 }
