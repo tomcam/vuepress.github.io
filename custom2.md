@@ -1,9 +1,9 @@
 [Home](https://tomcam.github.io/vuepress.github.io/)
 
-# Adding style to a custom Vuepress theme
+# Adding style to a custom VuePress theme
 
 [Creating a minimal custom theme](./custom1.md) showed how to create the smallest possible
-Vuepress theme. Let's add some styling to it. The theme is called `starter2`.
+VuePress theme. Let's add some styling to it. The theme is called `starter2`.
 
 ## Create a theme directory in /usr/local/lib/node_modules
 
@@ -22,9 +22,9 @@ $ cd /usr/local/lib/node_modules/vuepress-theme-starter2
 
 The file `Layout.vue` is important because it's the default template for
 all web pages. Styles you add to `Layout.vue` are accessible to
-all other web pages in your Vuepress installation.
+all other web pages in your VuePress installation.
 
-For clarity Vuepress preprocesses the styles you define. [Stylus](http://stylus-lang.com/), 
+For clarity VuePress preprocesses the styles you define. [Stylus](http://stylus-lang.com/), 
 the source language, resembles YAML or a simplfied version of CSS. For example, instead of
 changing the color of `<h1>` headers to red like this:
 
