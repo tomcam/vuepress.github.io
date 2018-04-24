@@ -39,6 +39,11 @@ In a moment you'll see a change:
 
 ![Screen shot of home page with title from config.js](/assets/img/config-title.png)
 
+## Adding title adds search to every page
+
+A new header appears on every page, consisting of a hamburger menu to the left, the title "Dim Sum!", and retractable 
+search feature.
+
 Explore these new features. For example, click the search icon and type something, 
 for example, `L` for lunch.
 
@@ -59,6 +64,8 @@ them in the project's root directory:
 # Dinner menu
 ```
 
+## Adding title automates navigation
+
 * Choose the `Lunch menu` item to see that page:
 
 ![Screen shot of minimal "lunch.md" page](/assets/img/config-title-lunch.png)
@@ -71,7 +78,7 @@ Note how the VuePress default them has built links to the dinner menu and the ho
 
 Now you see links to the the home page and the lunch menu.
 
-## Links are named after the first header in the markup file
+### Links are named after the first header in the markup file
 
 You can see that VuePress automatically titled pages by reading the first header from each file. It orders
 them alphabetically, by file name.
