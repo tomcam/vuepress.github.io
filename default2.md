@@ -1,4 +1,4 @@
-# Adding YAML front matter to a Markdown page
+# Adding YAML front matter to a VuePress home page
 
 A Markdown page may contain directives that don't appear in the output as written, but that do affect the display. They are in a format called [YAML](./README.md#YAML). The first thing to do is to add what the default theme calls "Hero text", which is a big ol' H1 in the middle of the home page.
 
