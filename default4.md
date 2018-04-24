@@ -5,7 +5,7 @@ You add the hero image using YAML just like the `heroText` header added in the p
 
 Here's an example:
 
-![Screen shot of home page with hero image labeled](/assets/img/default-heroimage-labeled.png)
+![Screen shot of home page with hero image labeled](/assets/img/default1-heroimage-labeled.png)
 
 
 * Add the YAML line `heroImage: /img/springfield-dim-sum-800px.png`, 
