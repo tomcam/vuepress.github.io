@@ -15,6 +15,7 @@ actionLink: ./menu.md
 
 Here it is in context:
 
+```yaml
 ---
 home: true
 heroText: Springfield Dim Sum
@@ -24,7 +25,7 @@ actionText: See our Menu →
 actionLink: ./menu.md
 ---
 ## Location and Directions
-
+```
 * Add the above YAML to your README.md home page for these results:
 
 ![Screen shot with action link](./assets/img/default1-action-link.png)
