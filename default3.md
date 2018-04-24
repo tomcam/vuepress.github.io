@@ -9,6 +9,11 @@ The [tutorial](./default1.md) instructed that when using the Vuepress default th
 with `## headline goes here`, which translates to a level 2 HTML header (i.e. `<h2>` tag). It pays off
 here, because it's best that you use the hero text feature for your level 1 header on the home page.
 
+The Hero Text is a distinct headline:
+
+![Screen shot of home page with hero text](/assets/img/default-herotext-labeled.png)
+
+
 It's normally best for your home page to have a single level 1 header because search engines
 know which is the most important header. Why not have it match the most prominent-looking header
 on the page too? That's how the hero text works with the default theme.
