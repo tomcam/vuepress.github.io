@@ -13,6 +13,7 @@ Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuep
 * [Config.js: Sitewide configuration for VuePress sites](./config1.md#configjs-sitewide-configuration-for-vuepress-sites)
   - [The minimal VuePress config.js file](./config1.md)
   - [Adding a title, hamburger menu, and search to your site](./config-title.md)
+  - [Adding a description to your site](./config-description.md)
 
 ## Creating custom Vuepress themes
 
