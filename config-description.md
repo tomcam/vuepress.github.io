@@ -31,9 +31,11 @@ module.exports = {
 
 ###### file ./README.md
 
+::: v-pre
 ```markdown
 ## Welcome to {{ $site.description }} 
 ```
+::: v-pre
 
 * Run `vuepress dev` to see the generated page:
 
