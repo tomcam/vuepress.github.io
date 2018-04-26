@@ -10,10 +10,9 @@ Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuep
   - [Adding "features" markup to the home page](./default5.md)
   - [Adding a "tagline" YAML markup to the home page](./default6.md)
   - [Adding an action link to the home page with YAML](./default7.md)  
-
-## Config.js: Sitewide configuration for VuePress sites
-* [The minimal VuePress config.js file](./config1.md)
-* [Adding a title, hamburger menu, and search to your site](./config-title.md)
+* Config.js: Sitewide configuration for VuePress sites
+  - [The minimal VuePress config.js file](./config1.md)
+  - [Adding a title, hamburger menu, and search to your site](./config-title.md)
 
 ## Creating custom Vuepress themes
 
