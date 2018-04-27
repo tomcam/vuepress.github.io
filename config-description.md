@@ -1,6 +1,6 @@
 # Adding a description to your site
 
-Add [config.sys](./config1.md) the `description` attribute to your site
+Add [config.js](./config1.md) the `description` attribute to your site
 to create the [description meta tag](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML),
 which is often used by search engines to display a description for your site.
 
