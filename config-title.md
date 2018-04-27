@@ -1,11 +1,11 @@
 # Adding a title, hamburger menu, and search to your site
 
-The simplest addition to [config.sys](./config1.md) is the `title` attribute. 
+The simplest addition to [config.js](./config1.md) is the `title` attribute. 
 This gives your site a whole list of features: search, a consistent title across
 all the pages in your site, and a hamburger menu that automatically uses
 the titles from your directory of markdown files to create a table of contents.
 
-First, let's take a look at a simple site with no `config.sys` at all:
+First, let's take a look at a simple site with no `config.js` at all:
 
 ![Screen shot of home page without title from config.js](/assets/img/config-title-notitle.png)
 
