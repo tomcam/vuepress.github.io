@@ -20,7 +20,7 @@ The next thing to add is the directive `heroText: Springfield Dim Sum`.
 ---
 home: true
 heroText: Springfield Dim Sum
-heroImage: heroImage: /img/springfield-dim-sum-800px.png
+heroImage: /img/springfield-dim-sum-800px.png
 ---
 
 ## Location and Directions
