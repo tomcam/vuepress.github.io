@@ -15,6 +15,10 @@ Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuep
   - [Adding a title, hamburger menu, and search to your site](./config-title.md)
   - [Adding a description to your site](./config-description.md)
 
+## Creating a simple markdown page
+* [Creating a simple markdown page](/page1.md)
+  - [Adding an image](/page1.md#adding-an-image)
+
 ## Creating custom Vuepress themes
 
 1. [Creating a minimal custom theme](./custom1.md) (Download custom Vuepress theme [starter1](https://github.com/tomcam/vuepress-theme-starter1))
