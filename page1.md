@@ -20,16 +20,21 @@ project's directory tree could like this:
 │   ├── vpbookcover1.png
 │   ├── screenshot1.png
 │   └── screenshot2.png
+|
 ├── css/
 │   ├── template.sass
 │   ├── override.sass
 │   └── raw.css
-├── yaml/
+|
+├── chapter1/
 │   ├── README.md
 |   ├── yaml1.md
 |   └── yaml2.md
-├── sass/
-└── templates/
+|
+└── chapter2/
+    ├── README.md
+    ├── markdown1.md
+    └── markdown2.md
 ```
 
 The syntax for images is the same as for links but they're preceded by a `!` character:
