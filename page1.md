@@ -1,6 +1,8 @@
 # Creating a simple markdown page
 
 
+JUST STARTED THIS
+
 
 ## Adding an image
 
