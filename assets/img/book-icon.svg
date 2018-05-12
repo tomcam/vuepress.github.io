@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><path fill="#000000" d="M42.125,56.631l52.923-19.855v-1.924L56.67,21.615L4.953,33.415l0.563,0.306  c-0.363-0.192-0.574-0.306-0.563-0.306v2.257v0.642v11.466v2.565v0.333l37.172,27.706l52.923-27.244v-1.924l-4.926-1.699v1.776  L42.125,71.612L8.903,49.007V38.474L42.125,56.631z"/><text x="0" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Laurent Canivet</text><text x="0" y="120" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text></svg>
+<svg width="93" height="60" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="62" width="95" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m39.125,36.631l52.923,-19.855l0,-1.924l-38.378,-13.237l-51.717,11.8l0.563,0.306c-0.363,-0.192 -0.574,-0.306 -0.563,-0.306l0,2.257l0,0.642l0,11.466l0,2.565l0,0.333l37.172,27.706l52.923,-27.244l0,-1.924l-4.926,-1.699l0,1.776l-47.997,22.319l-33.222,-22.605l0,-10.533l33.222,18.157z" fill="#000000"/>
+ </g>
+</svg>
