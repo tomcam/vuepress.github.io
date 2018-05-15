@@ -38,17 +38,6 @@ h3
     color: #4FAF4C
 ```    
 
-Normally Vuepress doesn't catch changes to `/.vuepress/override.styl` so you need to
-take control. 
-
-* Drop back into the terminal and press Ctrl+C to stop the sever.
-
-* Restart the vuepress server:
-
-```bash
-$ vuepress dev
-```
-
 * Browse to the `lunch.html` page:
 
 ![Screen shot of markup after changing h2 style](/assets/img/style-after-override.png)
