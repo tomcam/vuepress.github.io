@@ -23,7 +23,7 @@ so that "Lunch Specials" pops a little more.
 ## Create the file `/.vuepress/override.styl`
 
 To override the VuePress default theme's global styles define the new styles in
-a file named `/.vuepress/override.styl`. VuePress uses the [Stylus](http://stylus-lang.com/) ]
+a file named `/.vuepress/override.styl`. VuePress uses the [Stylus](http://stylus-lang.com/) 
 preprocessor, although Stylus is compatible with CSS. Stylus is easier to read and write
 than CSS, and converts the `.styl` files to CSS automatically. 
 Let's change the h2 using Stylus since you probably know CSS already.
