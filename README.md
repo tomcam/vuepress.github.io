@@ -19,6 +19,9 @@ Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuep
 * [Creating a simple markdown page](/page1.md)
   - [Adding an image](/page1.md#adding-an-image)
 
+## Overriding the default theme's style sheet
+* [Create the file /.vuepress/override.styl](./style-overriding-default.md)
+
 ## Creating custom Vuepress themes
 
 1. [Creating a minimal custom theme](./custom1.md) (Download custom Vuepress theme [starter1](https://github.com/tomcam/vuepress-theme-starter1))
