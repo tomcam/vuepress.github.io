@@ -32,6 +32,7 @@ Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuep
 ## Technical docs
 
 * VuePress [Guide](https://vuepress.vuejs.org/guide/)
+  - [GitHub Issues](https://github.com/vuejs/vuepress/issues)
 * [Default theme](https://github.com/vuejs/vuepress/tree/master/lib/default-theme)
   - [Layout.vue source](https://github.com/vuejs/vuepress/blob/master/lib/default-theme/Layout.vue)
   - [Home.vue source](https://github.com/vuejs/vuepress/blob/master/lib/default-theme/Home.vue)
