@@ -23,6 +23,10 @@ Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuep
 ## Overriding the default theme's style sheet
 * [Create the file /.vuepress/override.styl](./style-overriding-default.md)
 
+## VuePress Cheatsheet: Quick guide to creating an entire site
+* [VuePress cheatsheet](/cheatsheet.md)
+
+
 ## Creating custom Vuepress themes
 
 1. [Creating a minimal custom theme](./custom1.md) (Download custom Vuepress theme [starter1](https://github.com/tomcam/vuepress-theme-starter1))
