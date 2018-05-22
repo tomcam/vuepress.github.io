@@ -48,14 +48,23 @@ Now you'll be able to start the terminal much faster next time.
 
 Go to your normal work area, create the working directory, and move to it. 
 
-In this case you would replace `~/code/vue/vuepress` with wherever you choose to put your VuePress files. This site’s directory is creatively called `demo1`. 
+In this case you would replace `~/code/vue/vuepress` with wherever you choose to put your VuePress files. This site’s directory is creatively called `demo1`. It's also good to create subdirectories
+for image and style sheet assets.
 
-* The first thing to do is to create the working directory and a subdirectory under it named `.vuepress` (don't forget that it starts with the period character). You can create them all at once like this:
+* Create the working directory and a subdirectory under it named `.vuepress` (don't forget that it starts with the period character). You can create them all at once like this:
 
 ```bash
 # Create full directory path, including the
 # necessary hidden directory .vuepress
 $ mkdir -p ~/code/vue/vuepress/demo1/.vuepress
+```
+
+* And directories for assets such as images and style sheets. They can go anywhere; Vuepress imposes no convention for directories.
+
+```bash
+# Create directories for images and CSS.
+$ mkdir -p ~/code/vue/vuepress/demo1/assets/img
+$ mkdir -p ~/code/vue/vuepress/demo1/assets/css
 ```
 
 ::: 
