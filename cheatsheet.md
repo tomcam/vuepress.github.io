@@ -13,16 +13,18 @@ $ mkdir -p ~/mybook/.vuepress
 # don't need to use this convention.
 $ mkdir -p ~/mybook/assets/img
 $ mkdir -p ~/mybook/assets/css
+```
 
 * Change to the project root directory
 
+```bash
 # Replace this with whatever directory
 # you used for your VuePress installation.
 $ cd  ~/mybook/
-
+```
 ## Create the home page
 
-* Get an image file for the main home page image (called the hero image). In this example
+* Obtain an image file for the main home page image (called the hero image). In this example
 it's called logo.png but the name and size don't matter. 
 
 It's best to get one with
