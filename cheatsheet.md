@@ -37,6 +37,10 @@ with no changes.
 
 * Create the file `README.md` and give it the following contents.
 
+The parts in between `---` lines are called [YAML](/default2.md). They do not display directly but
+they contain site settings. The site's content appears after the second `---`, so in this case it's
+a level 2 header that says `Secondary title-less important thatn heroText`.
+
 ```txt
 ---
 # Specify this is the home page 
@@ -57,7 +61,7 @@ actionText: See our Menu →
 # Place big green button should link to. 
 actionLink: ./menu.md
 ---
-## Secondary title-less important thatn heroText
+## Secondary title-less important thtn heroText
 
 And regular text goes here.
 ```
@@ -71,7 +75,7 @@ The site's global title, search capability for header levels 1-3, and mobile
 
 ```javascript
 module.exports = {
-  title: "Springfiled Dim Sum",
+  title: "Springfield Dim Sum",
   description: "Springfield's best Chinese food!"
 }
 ```
