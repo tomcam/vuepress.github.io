@@ -21,9 +21,8 @@ Create this minimal file and save to your `/vuepress/config.js` directory. Make 
 site compiles properly. Your site shouldn't change at all when you've created
 this minimal `config.js`. 
 
-When that works go on to adding a [title](./config-title.md) to your VuePress site.
-
 ```yaml
 module.exports = {
 }
 ```
+The next step is [adding a title to your site](./config-title.md) to your VuePress site using `config.js`.
