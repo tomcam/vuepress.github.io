@@ -6,7 +6,7 @@ restaurant named Springfield Dim Sum.
 
 ## Workflow
 
-After you've installed [npm](https://www.npmjs.com/) and [VuePress](https://vuepress.vuejs.org/guide/getting-started.html)
+After you've installed [Node.js](https://nodejs.org) and [VuePress](https://vuepress.vuejs.org/guide/getting-started.html)
 the typical workflow described here is as follows:
 
 * Create a working directory and change to it
