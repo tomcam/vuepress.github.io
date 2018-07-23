@@ -101,7 +101,7 @@ for image and style sheet assets.
 
 * Create the working directory and a subdirectory under it named `.vuepress` (don't forget that it starts with the period character). You can create them all at once like this:
 
-```bash
+```batch
 :: Create full directory path, including the
 :: necessary directory .vuepress
 > md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1\.vuepress
@@ -109,7 +109,7 @@ for image and style sheet assets.
 
 * And directories for assets such as images and style sheets. They can go anywhere; Vuepress imposes no convention for directories.
 
-```bash
+```batch
 :: Create directories for images and CSS.
 > md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1\assets\img
 > md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1\assets\css
@@ -121,9 +121,9 @@ VuePress sites other than the tiniest demos require it.
 :::
 * Now change to that directory. You will run `vuepress dev` or `vuepress build` from within it.
 
-```bash
+```batch
 :: Make it the working directory.
-$ md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1
+> md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1
 ```
 
 ## Creating a minimal home page
