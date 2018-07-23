@@ -44,7 +44,7 @@ do this once.
 
 Now you'll be able to start the terminal much faster next time.
 
-## Creating the directories for your VuePress site.
+## Creating the directories for your VuePress site, MacOS version
 
 Go to your normal work area, create the working directory, and move to it. 
 
@@ -69,13 +69,47 @@ $ mkdir -p ~/code/vue/vuepress/demo1/assets/css
 
 ::: 
 Always create the .vuepress sudirectory. It's not used at the moment but will be. All
-VuePress sites for other the tiniest demos require it.
+VuePress sites other than the tiniest demos require it.
 :::
 * Now change to that directory. You will run `vuepress dev` or `vuepress build` from within it.
 
 ```bash
 # Make it the working directory.
 $ cd ~/code/vue/vuepress/demo1
+```
+
+## Creating the directories for your VuePress site, Windows version
+
+Go to your normal work area, create the working directory, and move to it. 
+
+In this case you would replace `%HOMEDIR%/code/vue/vuepress` with wherever you choose to put your VuePress files. This site’s directory is creatively called `demo1`. It's also good to create subdirectories
+for image and style sheet assets.
+
+* Create the working directory and a subdirectory under it named `.vuepress` (don't forget that it starts with the period character). You can create them all at once like this:
+
+```bash
+:: Create full directory path, including the
+:: necessary directory .vuepress
+> md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1\.vuepress
+```
+
+* And directories for assets such as images and style sheets. They can go anywhere; Vuepress imposes no convention for directories.
+
+```bash
+:: Create directories for images and CSS.
+> md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1\assets\img
+> md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1\assets\css
+```
+
+::: 
+Always create the .vuepress sudirectory. It's not used at the moment but will be. All
+VuePress sites other than the tiniest demos require it.
+:::
+* Now change to that directory. You will run `vuepress dev` or `vuepress build` from within it.
+
+```bash
+:: Make it the working directory.
+$ md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1
 ```
 
 ## Creating a minimal home page
