@@ -1,6 +1,8 @@
-# Cheatsheet: Checklist for creating a VuePress site
+# Cheatsheet: Checklist for creating a VuePress 
 
-## Set up the project directory
+Here's the bare minimumm you need to get a VuePress site up and running from scratch using the default theme.
+
+## Set up the project directory, MacOS version
 
 * [Create a directory](/creating-the-directories-for-your-vuepress-site.md) for your project.
 For example, if your project is at `~/mybook`:
@@ -15,17 +17,40 @@ $ mkdir -p ~/mybook/assets/img
 $ mkdir -p ~/mybook/assets/css
 ```
 
+## Set up the project directory, Windows version
+
+* [Create a directory](/creating-the-directories-for-your-vuepress-site.md) for your project.
+For example, if your project is at `%HOMEDRIVE%%HOMEPATH%\mybook`:
+
+```batch
+:: Generate full directory path, including the
+:: necessary directory .vuepress
+> md %HOMEDRIVE%%HOMEPATH%\mybook\.vuepress
+:: These directories hold images and CSS. You 
+:: don't need to use this convention.
+> md %HOMEDRIVE%%HOMEPATH%\mybook\assets\img
+> md %HOMEDRIVE%%HOMEPATH%\mybook\assets\css
+```
+
 ## Create the home page
 
 The home page of a site using the default VuePress theme is kind of a splash screen, more for 
 showing off a site than for reference. So give it a nice bold image.
 
-* Change to the project root directory:
+* Change to the project root directory (MacOS):
 
 ```bash
 # Replace this with whatever directory
 # you used for your VuePress installation.
-$ cd  ~/mybook/
+$ cd  ~/mybook
+```
+
+* Change to the project root directory (Windows):
+
+```batch
+:: Replace this with whatever directory
+:: you used for your VuePress installation.
+> cd  %HOMEDRIVE%%HOMEPATH%\mybook
 ```
 
 * Obtain an image file for the main home page image (called the hero image). In this example
