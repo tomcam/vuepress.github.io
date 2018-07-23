@@ -53,6 +53,8 @@ $ cd  ~/mybook
 > cd  %HOMEDRIVE%%HOMEPATH%\mybook
 ```
 
+### Add a hero image
+
 * Obtain an image file for the main home page image (called the hero image). In this example
 it's called logo.png but the name and size don't matter. 
 
@@ -60,13 +62,15 @@ It's best to get one with
 a transparent or white background if you're using the default VuePress theme
 with no changes.
 
+### Create README.md
+
 * Create the file `README.md` and give it the following contents.
 
 The parts in between `---` lines are called [YAML](/default2.md). They do not display directly but
 they contain site settings. The site's content appears after the second `---`, so in this case it's
 a level 2 header that says `Secondary title-less important thatn heroText`.
 
-```txt
+```yaml
 ---
 # Specify this is the home page 
 # (and therefore uses the Home.vue template)
@@ -96,7 +100,8 @@ And regular text goes here.
 The site's global title, search capability for header levels 1-3, and mobile
 "hamburger" menu are added with `title` and `description` attributes of `config.js`.
 
-* Create the file `/.vuepress/config.js` with contents along these lines:
+* Create the file `/.vuepress/config.js` with contents along these lines. Windows users 
+should replace forward slashes with backslashes in the preceding example directory.
 
 ```javascript
 module.exports = {
@@ -105,7 +110,13 @@ module.exports = {
 }
 ```
 
-## Adding other directories
+## Adding other sections (directories)
 
 You can add more directories to organize your site. Each directory must contain 
-file named `README.md`.
+file named `README.md`. To continue with the restaurant them, let's add lunch and dinner sections.
+
+### Create subdirectories named lunch and dinner
+
+* Create two subdirectories at peer level, `lunch` and `dinner`.
+
+
