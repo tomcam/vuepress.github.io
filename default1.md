@@ -123,7 +123,7 @@ VuePress sites other than the tiniest demos require it.
 
 ```batch
 :: Make it the working directory.
-> md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1
+> cd %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1
 ```
 
 ## Creating a minimal home page
