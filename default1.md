@@ -58,18 +58,6 @@ The command prompt appears.
 
 ![Screen Windows command prompt](/assets/img/cmd-prompt.png)
 
-### Creating a Terminal shortcut on the MacOS dock (one time only)
-
-You'll be using the Terminal a lot, so make a shortcut for it. You only need to
-do this once.
-
-* Under `Top Hits`, Drag the Terminal icon to the bottom of your screen, into the Dock.
-
-![Screen shot of Terminal being dragged from Spotlight to Dock](/assets/img/macos-dock-dragging-terminal.png)
-
-Now you'll be able to start the terminal much faster next time.
-
-
 ## Creating the directories for your VuePress site, MacOS version
 
 Go to your normal work area, create the working directory, and move to it. 
