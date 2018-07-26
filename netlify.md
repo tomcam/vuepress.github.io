@@ -6,7 +6,7 @@ This makes it a perfect complement to VuePress.
 
 This section shows you how to create a site using VuePress and deploy it using GitHub and Netlify.
 
-## Download Git
+## Download and install Git
 
 * If you haven't already done so, [download and install Git](https://git-scm.com).
 
