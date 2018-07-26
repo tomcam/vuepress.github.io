@@ -39,7 +39,7 @@ module.exports = {
 
 * Run `vuepress dev` to see the generated page:
 
-![Screen shot of home page without title from config.js](/assets/img/config-description.png)
+![Screen shot of home page without title from config.js](./assets/img/config-description.png)
 
 
 * Here is the source code for the generated page in your browser:
