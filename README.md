@@ -23,6 +23,9 @@ Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuep
 ## Overriding the default theme's style sheet
 * [Create the file /.vuepress/override.styl](./style-overriding-default.md)
 
+## Deploying a VuePress site to Netlify
+* [Download and install git](./netlify.md#download-git)
+
 ## VuePress Cheatsheet: Quick guide to creating an entire site
 * [VuePress cheatsheet](/cheatsheet.md)
 
