@@ -1,3 +1,3 @@
 module.exports = {
-    title: "Dim Sum!"
+    title: "VuePress Book"
 }
