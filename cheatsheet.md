@@ -1,4 +1,4 @@
-# Cheatsheet: Checklist for creating a VuePress 
+# Cheatsheet: Checklist for creating a VuePress site
 
 Here's the bare minimumm you need to get a VuePress site up and running from scratch using the default theme.
 
@@ -87,7 +87,7 @@ tagline: Catchy description of site
 # Text for the big green button:
 actionText: See our Menu →
 
-# Place big green button should link to. 
+# Page big green button should link to. 
 actionLink: ./menu.md
 ---
 ## Secondary title-less important thtn heroText
