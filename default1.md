@@ -167,7 +167,7 @@ Running `vuepress dev` creates a sort of temporary copy of the site on the fly. 
 <h2 id="location-and-directions">Location and Directions</h2> 
 ```
 
-It doesn't generate permanent HTML or Javascript files (that's why you'd run `vuepress build` but it builds a live version of the site. You can make changes
+It doesn't generate permanent HTML or Javascript files (that's why you'd run `vuepress build`) but it builds a live version of the site. You can make changes
 to your Markdown files and the pages be updated dynamically the moment you save.
 
 ## Opening a browser window
