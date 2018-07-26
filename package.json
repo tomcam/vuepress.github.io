@@ -1,0 +1,26 @@
+{
+  "name": "vuepress.github.io",
+  "version": "1.0.0",
+  "description": "Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuepressbook.com](http://www.vuepressbook.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress build"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomcam/vuepress.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomcam/vuepress.github.io/issues"
+  },
+  "homepage": "https://github.com/tomcam/vuepress.github.io#readme",
+  "dependencies": {
+    "vuepress": "^0.12.0"
+ }
+
+}
