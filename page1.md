@@ -40,5 +40,5 @@ project's directory tree could like this:
 The syntax for images is the same as for links but they're preceded by a `!` character:
 
 ```markdown
-![Screen shot of home page with hero text](/img/default1-heroimage.png)
+![Screen shot of home page with hero text](./img/default1-heroimage.png)
 ```
