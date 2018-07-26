@@ -226,7 +226,6 @@ The completed `package.json` is as shown:
 }
 ```
 
-
 You don't need to do this again.
 
 And finally, send the committed file to GitHub:
@@ -234,5 +233,79 @@ And finally, send the committed file to GitHub:
 ```bash
 git push -u origin master
 ```
+
+## Add package.json to the repository
+
+Don't forget to add `package.json` to the repository, since that's where Netlify looks to 
+learn how your project is built.
+
+```bash
+git add package.json
+git commit -m "package.json for netlify/npm build settings"
+git push -u origin master
+```
+
+## Create and deploy your site from Netlify
+
+The final step is to provision a site from Netlify and deploy it. 
+The result will be your VuePress site on a free Netlify installation.
+It has HTTPS support and you can even point a domain name to it, all free.
+
+* If you haven't done so already, [Create a Netlify account](https://app.netlify.com/signup).
+
+It's truly free and not a timed demo. It doesn't require a credit card, just an email address and
+a GitHub account. (You're not limited to GitHub but that's what we're using in this example.)
+
+* From your [Netlify account page](https://app.netlify.com/account/sites), choose `New site from Git`.
+
+The `Create a site` page appears.
+
+* Under `Continuous Deployment`, choose `GitHub`.
+
+You are probably logged into GitHub already but if you're not, a GitHub login page appears.
+
+* Log into GitHub if you're asked.
+
+A list of your GitHub repositories appears.
+
+* Choose the `vpdemo1` repo
+
+Netlify's `Deploy settings` page appears.
+
+Leave `Branch to deploy` set to master.
+
+* Under `Basic build settings`, enter the following for `Build command`:
+
+```txt
+npm run docs:build
+```
+
+* For `Publish directory`, enter
+
+```txt
+.vuepress/dist
+```
+
+The `.vuepress/dist` directory is where VuePress sends the generated static site files.
+
+And now the grand finale!
+
+* Choose `Deploy site`
+
+The Deploy log with a long list of actions:
+
+```txt
+9:54:00 PM: Build ready to start
+9:54:01 PM: Fetching cached dependencies
+9:54:02 PM: Failed to fetch cache, continuing with build
+9:54:02 PM: Start etc.
+...
+```
+
+Upon success a few moments later you'll be shown page with inforation about your new site.
+It's given some kind of crazy URL like `https://silly-alien-c1776.netlify.com/`.
+
+Click the URL and gaze upon the greatness of your work!
+
 
 
