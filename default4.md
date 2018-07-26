@@ -5,7 +5,7 @@ You add the hero image using YAML just like the `heroText` header added in the p
 
 Here's an example:
 
-![Screen shot of home page with hero image labeled](/assets/img/default1-heroimage-labeled.png)
+![Screen shot of home page with hero image labeled](./assets/img/default1-heroimage-labeled.png)
 
 
 * Add the YAML line `heroImage: /img/springfield-dim-sum-800px.png`, 
@@ -31,7 +31,7 @@ You will of course need to create a new subdirectory named `/img/` and to put th
 
 The results immediately appear, assuming you're still running `vuepress dev` inside your project directory:
 
-![Screen shot of home page with hero text](/assets/img/default1-heroimage.png)
+![Screen shot of home page with hero text](/.assets/img/default1-heroimage.png)
 
 Thanks to [gnokii](https://openclipart.org/user-detail/gnokii) at 
 [openclipart](https://openclipart.org) for 
