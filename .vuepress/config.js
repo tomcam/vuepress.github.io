@@ -1,3 +1,7 @@
 module.exports = {
-    title: "VuePress Book"
+    title: "VuePress Book",
+	themeConfig: {
+		sidebar: [
+		]
+	}
 }
