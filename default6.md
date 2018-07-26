@@ -2,13 +2,13 @@
 
 The VuePress default theme's home page template has a tagline that's meant to go just under the hero text. It looks like this:
 
-![Screen shot of home page with 1 feature markup](/assets/img/default1-tagline-labeled.png)
+![Screen shot of home page with 1 feature markup](./assets/img/default1-tagline-labeled.png)
 
 ```yaml
 tagline: Healthy, Delicious Dim Sum 7 Days a Week!
 ```
 
-:::
+::: TIP
 Make sure you have `home: true` in the YAML. This feature is only for home pages.
 :::
 
@@ -33,4 +33,4 @@ tagline: Healthy, Delicious Dim Sum 7 Days a Week!
 
 It would look like this in production:
 
-![Screen shot of home page with 1 feature markup](/assets/img/default1-tagline.png)
+![Screen shot of home page with 1 feature markup](./assets/img/default1-tagline.png)
