@@ -75,7 +75,6 @@ Add that file to the repository:
 git add README.md
 ```
 
-
 ### Commit the README.md file
 
 Changes to a file aren't part of the current version until you do a commit:
@@ -110,6 +109,124 @@ git remote add origin git@github.com:youruserid/vpdemo1
 git remote set-url origin https://github.com/tomcam/vpdemo1.git
 ```
 
+## Make your project a Node module
+
+VuePress requires [npm](https://docs.npmjs.com/) and turning your repository into a Node module
+means Netlify can use automated build tools to run VuePress automatically. Creating `package.json` 
+is the key.
+
+Here's the quickest way to create `package.json`:
+
+* Run `npm init` at the command line:
+
+```bash
+npm init --force
+```
+
+The `--force` option applies sensible defaults for this demo. 
+Without it, npm will ask you a bunch questions that aren't relevant here.
+
+NPM displays the `package.json` it created:
+
+```
+pm WARN using --force I sure hope you know what you are doing.
+Wrote to C:\Users\tom\code\vue\vuepress\vpdemo1\package.json:
+
+
+{
+  "name": "vpdemo1",
+  "version": "1.0.0",
+  "description": "Fascinating sentence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomcam/vpdemo1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomcam/vpdemo1/issues"
+  },
+  "homepage": "https://github.com/tomcam/vpdemo1#readme"
+}
+```
+
+### Update package.json to reflect VuePress usage
+
+This `package.json` doesn't know about VuePress. So:
+
+* Load `package.json` into a text editor.
+
+* Find the `scripts` declaration:
+
+```json
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+```
+
+* Update by adding a comma after `exit 1"` and the `docs:build` line as shown:
+
+```json
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "docs:build": "vuepress build"
+  }
+```
+
+* Add the a `dependencies` object after `homepage`, again including the comma:
+
+```json
+ "homepage": "https://github.com/tomcam/vpdemo1#readme",
+ "dependencies": {
+    "vuepress": "^0.12.0"
+ }
+```
+
+Here the version of VuePress is `0.12.0` but your version of VuePress will probably be different. 
+
+* Find out what version of Vuepress you're using with this command line:
+
+```bash
+vuepress -V
+```
+
+* If it's different from the example replace the version number in your `package.json` file.
+
+The completed `package.json` is as shown:
+
+```json
+{
+  "name": "vpdemo1",
+  "version": "1.0.0",
+  "description": "Fascinating sentence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"docs:build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomcam/vpdemo1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomcam/vpdemo1/issues"
+  },
+  "homepage": "https://github.com/tomcam/vpdemo1#readme",
+  "dependencies": {
+    "vuepress": "^0.12.0"
+  }
+}
+```
+
+
 You don't need to do this again.
 
 And finally, send the committed file to GitHub:
@@ -117,4 +234,5 @@ And finally, send the committed file to GitHub:
 ```bash
 git push -u origin master
 ```
+
 
