@@ -298,8 +298,14 @@ The Deploy log with a long list of actions:
 9:54:00 PM: Build ready to start
 9:54:01 PM: Fetching cached dependencies
 9:54:02 PM: Failed to fetch cache, continuing with build
-9:54:02 PM: Start etc.
-...
+9:54:02 PM: ...
+
+9:54:07 AM: Build script success
+9:54:07 AM: Starting to deploy site from '.vuepress/dist'
+9:54:07 AM: Starting post processing
+9:54:07 AM: Post processing done
+9:54:07 AM: Site is live
+9:54:07 AM: Finished processing build request in 43.795358607s
 ```
 
 Upon success a few moments later you'll be shown page with inforation about your new site.
