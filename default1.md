@@ -81,7 +81,7 @@ $ mkdir -p ~/code/vue/vuepress/demo1/assets/img
 $ mkdir -p ~/code/vue/vuepress/demo1/assets/css
 ```
 
-::: 
+::: tip
 Always create the .vuepress sudirectory. It's not used at the moment but will be. All
 VuePress sites other than the tiniest demos require it.
 :::
@@ -115,7 +115,7 @@ for image and style sheet assets.
 > md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1\assets\css
 ```
 
-::: 
+::: tip
 Always create the .vuepress sudirectory. It's not used at the moment but will be. All
 VuePress sites other than the tiniest demos require it.
 :::
@@ -138,7 +138,7 @@ formatting that won't convert properly) and create a file named `README.md` with
 
 <!-- tip TIP FOR DEFAULT THEME USERS -->
 
-::: 
+::: tip
 If you're using the VuePress default theme to create your home page (and you are in this example), 
 you should start
 with a level 2 header (`##`, as shown above). That's because the level 1 header
