@@ -1,3 +1,16 @@
+<link rel="stylesheet" type="text/css" href="tinysite.css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Signika:300,400,600,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Average:400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=EB+Garamond:400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+
+@font-face {
+    src: url(http://fonts.googleapis.com/css?family=Slabo+27px);
+	src: url(http://fonts.googleapis.com/css?family=Sintony:400,700);
+	
+}
 img {
 display: block;
 width: 66%;
@@ -18,10 +31,19 @@ a{text-decoration:none}
 @media(max-width:300px){.mediumwidth{width:100%;margin-left:25%} hr.mediumwidth{width:auto}}
 
 .thin{font-weight:100}
-h1{color:#262626;font-size:4em;margin:0}
-h1.title{font-size:6em;letter-spacing:-.05em;}
-h2{color:#262626;font-size:2em}
-h3{color: #767676;}
+	h1{font-family: 'Roboto',sans-serif;font-weight:700;color:#5AB8E3;letter-spacing:-.05em;text-align:center;line-height:3em;}
+	h2.sintony{font-family: 'Sintony', sans-serif;font-weight:700;color:#E04E10;}
+	h2.slabo27px{font-family:'Slabo 27px',serif;color:#E04E10;font-weight:normal;}
+	h2.default{color: #5AB8E3;font-weight:300;}
+	h2.roboto{font-family:'Roboto',sans-serif;color: #5AB8E3;font-weight:300;}
+	h3.default{color:#E04E10;font-weight:300;font-size:1.5em;line-height:1em;margin-bottom:-.5em;	}
+	h3.slabo27px{font-family:'Slabo 27px',serif;color:#5AB8E3;font-weight:normal;font-size:1.5em;line-height:1em;;margin-bottom:-.5em;}
+	h4{font-weight:400;color: rgba(0, 0, 0, 0.8);}
+	h4.slabo27px{font-family:'Slabo 27px',serif;color:#E04E10;font-weight:300;font-size:1.3em;line-height:1em;margin-bottom:-.5em;	}
+	p.signika{font-family: 'Signika',sans-serif;font-weight:300;color:#4C5058;font-size: 1.4em;}
+	p.sintony{font-family: 'Sintony',sans-serif;font-weight:400;color:#4C5058;font-size: 1.2em;line-height: 1.7em;}
+	p.average {font-family: 'Average',serif;font-weight:400;}
+	p.ebgaramond {font-family: 'EB Garamond',serif;font-weight:400;color: rgba(0, 0, 0, 0.8);}
 
 textarea,input{border:1px solid lightgray;outline:0;padding:6px;font-size:.8em;font-family:Helvetica,sans-serif}
 textarea.smooth,input.smooth{transition:border .15s ease-in-out}
