@@ -8,7 +8,7 @@ The VuePress default theme's home page template has a tagline that's meant to go
 tagline: Healthy, Delicious Dim Sum 7 Days a Week!
 ```
 
-::: TIP
+::: tip
 Make sure you have `home: true` in the YAML. This feature is only for home pages.
 :::
 
