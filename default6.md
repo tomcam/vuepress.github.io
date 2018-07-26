@@ -14,6 +14,7 @@ Make sure you have `home: true` in the YAML. This feature is only for home pages
 
 In context, it would look something like this:
 
+```yaml
 ---
 home: true
 heroText: Springfield Dim Sum
