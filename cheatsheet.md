@@ -4,28 +4,30 @@ Here's the bare minimumm you need to get a VuePress site up and running from scr
 
 ## Set up the project directory, MacOS version
 
-* [Create a directory](/creating-the-directories-for-your-vuepress-site.md) for your project.
+* Here's how to create a directory for your project from the MacOS terminal.
 For example, if your project is at `~/mybook`:
 
 ```bash
 # Generate full directory path, including the
 # necessary hidden directory .vuepress
 $ mkdir -p ~/mybook/.vuepress
-# These directories hold images and CSS. You 
-# don't need to use this convention.
+
+# These directories hold images and style sheets. 
+# You don't need to use this convention.
 $ mkdir -p ~/mybook/assets/img
 $ mkdir -p ~/mybook/assets/css
 ```
 
 ## Set up the project directory, Windows version
 
-* [Create a directory](/creating-the-directories-for-your-vuepress-site.md) for your project.
+* Here's how to create a directory for your project from the Windows command prompt.
 For example, if your project is at `%HOMEDRIVE%%HOMEPATH%\mybook`:
 
 ```batch
 :: Generate full directory path, including the
 :: necessary directory .vuepress
 > md %HOMEDRIVE%%HOMEPATH%\mybook\.vuepress
+
 :: These directories hold images and CSS. You 
 :: don't need to use this convention.
 > md %HOMEDRIVE%%HOMEPATH%\mybook\assets\img
