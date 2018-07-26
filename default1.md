@@ -40,7 +40,7 @@ do this once.
 
 * Under `Top Hits`, Drag the Terminal icon to the bottom of your screen, into the Dock.
 
-![Screen shot of Terminal being dragged from Spotlight to Dock](/assets/img/macos-dock-dragging-terminal.png)
+![Screen shot of Terminal being dragged from Spotlight to Dock](./assets/img/macos-dock-dragging-terminal.png)
 
 Now you'll be able to start the terminal much faster next time.
 
@@ -50,13 +50,13 @@ The quickest way to start the Windows command prompt is this:
 
 * Press the Windows and R keys at the same time to bring up the Run dialog.
 
-![Screen Windows Run dialog](/assets/img/screenshot-windows-run-dialog.png)
+![Screen Windows Run dialog](./assets/img/screenshot-windows-run-dialog.png)
 
 * Type `cmd` and press Enter.
 
 The command prompt appears.
 
-![Screen Windows command prompt](/assets/img/cmd-prompt.png)
+![Screen Windows command prompt](./assets/img/cmd-prompt.png)
 
 ## Creating the directories for your VuePress site, MacOS version
 
