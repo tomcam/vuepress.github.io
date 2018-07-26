@@ -25,6 +25,17 @@ Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuep
 
 ## Deploying a VuePress site to Netlify
 * [Download and install git](./netlify.md#download-git)
+  - [Create a GitHub repository](./netlify.md#create-a-github-repository)
+  - [One time only: configure Git if necessary](./netlify.md#one-time-only-configure-git-if-necessary)
+* [Create a minimal VuePress site](./netlify.md#create-a-minimal-vuepress-site)
+* [Create a repository for your site](./netlify.md#create-a-repository-for-your-site)
+  - [Add the README.md file](./netlify.md#add-the-readmemd-file)
+  - [Commit the README.md file](./netlify.md#commit-the-readmemd-file)
+  - [Push to GitHub](./netlify.md#push-to-github)
+* [Make your project a Node module](./netlify.md#make-your-project-a-node-module)
+  - [Update package.json to reflect VuePress usage](./netlify.md#update-packagejson-to-reflect-vuepress-usage)
+* [Add package.json to the repository](./netlify.md#add-packagejson-to-the-repository)
+* [Create and deploy your site from Netlify](./netlify.md#create-and-deploy-your-site-from-netlify)
 
 ## VuePress Cheatsheet: Quick guide to creating an entire site
 * [VuePress cheatsheet](/cheatsheet.md)
