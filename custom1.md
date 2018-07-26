@@ -114,7 +114,7 @@ $ vuepress dev
 ```
 And visit your site:
 
-![Screen shot of the minimal VuePress theme named starter1 ](/assets/img/starter1-vue-theme.png)
+![Screen shot of the minimal VuePress theme named starter1 ](./assets/img/starter1-vue-theme.png)
 
 You can find a repository at https://github.com/tomcam/vuepress-theme-starter1.
 
