@@ -11,7 +11,7 @@ here, because it's best that you use the hero text feature for your level 1 head
 
 The Hero Text is a distinct headline:
 
-![Screen shot of home page with hero text](/assets/img/default-herotext-labeled.png)
+![Screen shot of home page with hero text](./assets/img/default-herotext-labeled.png)
 
 
 It's normally best for your home page to have a single level 1 header because search engines
@@ -34,6 +34,6 @@ heroText: Springfield Dim Sum
 
 The results immediately appear, assuming you're still running `vuepress dev` inside your project directory:
 
-![Screen shot of home page with hero text](/assets/img/default-herotext.png)
+![Screen shot of home page with hero text](./assets/img/default-herotext.png)
 
 
