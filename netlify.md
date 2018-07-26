@@ -178,7 +178,7 @@ This `package.json` doesn't know about VuePress. So:
   }
 ```
 
-* Add the a `dependencies` object after `homepage`, again including the comma:
+* Add the `dependencies` object after `homepage`, again including the comma:
 
 ```json
  "homepage": "https://github.com/tomcam/vpdemo1#readme",
@@ -227,12 +227,6 @@ The completed `package.json` is as shown:
 ```
 
 You don't need to do this again.
-
-And finally, send the committed file to GitHub:
-
-```bash
-git push -u origin master
-```
 
 ## Add package.json to the repository
 
