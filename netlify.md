@@ -270,13 +270,13 @@ Leave `Branch to deploy` set to master.
 
 * Under `Basic build settings`, enter the following for `Build command`:
 
-```txt
+```text
 npm run docs:build
 ```
 
 * For `Publish directory`, enter
 
-```txt
+```text
 .vuepress/dist
 ```
 
@@ -288,7 +288,7 @@ And now the grand finale!
 
 The Deploy log with a long list of actions:
 
-```txt
+```text
 9:54:00 PM: Build ready to start
 9:54:01 PM: Fetching cached dependencies
 9:54:02 PM: Failed to fetch cache, continuing with build
@@ -306,6 +306,3 @@ Upon success a few moments later you'll be shown page with inforation about your
 It's given some kind of crazy URL like `https://silly-alien-c1776.netlify.com/`.
 
 Click the URL and gaze upon the greatness of your work!
-
-
-
