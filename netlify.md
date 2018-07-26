@@ -26,7 +26,7 @@ This is just the name we're using for the demo.
 * On your local machine, create a directory named `vpdemo1` from the command line and change 
 to that directory.
 
-## One tie only: configure Git if necessary
+## One time only: configure Git if necessary
 
 Git needs to know your login ID for the repository. You only need to do this once if you've
 never run Git before. Skip it if you've created repos with Git previously.
@@ -45,10 +45,76 @@ valid VuePress site.
 
 * Create a text file named `README.md` with the following contents:
 
-```markup
+```markdown
+
 # First VuePress site
 
 hello, world.
 ```
 
+## Create a repository for your site
+
+The magic starts here. You're going to create a proper Git repository and put it up on GitHub.
+
+###  Initialize the repository
+
+* First, initialize an empty source code control repository in Git format:
+
+```bash
+git init
+```
+
+This creates a hidden directory named `.git` that will contain all versions of the files you create (technically, just changes to the files).
+
+### Add the README.md file
+
+GitHub likes your repositories to have a file named `README.md` in the root directory. It is no accident that VuePress does too.
+Add that file to the repository:
+
+```bash
+git add README.md
+```
+
+
+### Commit the README.md file
+
+Changes to a file aren't part of the current version until you do a commit:
+
+* Use git commit to update the repository with an explanatory message:
+
+```bash
+git commit -m "Smallest valid  Vuepress site"
+```
+
+You get feedback that looks roughly like this:
+
+```
+[master (root-commit) 99c62f2] Simple but complete Vuepress site
+1 file changed, 3 insertions(+)
+ create mode 100644 README.md
+```
+
+### Push to GitHub
+
+* Replace `youruserid` with your GitHub user ID.
+
+```bash
+git remote add origin git@github.com:youruserid/vpdemo1
+```
+
+### Just once:
+
+* Again, replace `youruserid` with your GitHub user ID.
+
+```bash
+git remote set-url origin https://github.com/tomcam/vpdemo1.git
+```
+
+You don't need to do this again.
+
+And finally, send the committed file to GitHub:
+
+```bash
+git push -u origin master
+```
 
