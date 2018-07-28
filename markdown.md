@@ -13,6 +13,12 @@ The simplest way to show code is to wrap it between two lines consisting of 3 ba
     title: Welcome to Example.com
     ```
 
+And the result would be:
+
+ ```
+ title: Welcome to Example.com
+ ```
+
 You can get exactly the same effect by preceding each line of code with exactly 4 spaces.
 
 ### Keyword highlighting
@@ -40,9 +46,9 @@ Bash:
     ```
  The result would show like this:
  
-````bash
+```bash
  echo hello, world.
-````
+```
 
 
 
