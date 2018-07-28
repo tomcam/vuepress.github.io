@@ -1,4 +1,3 @@
-[Home](https://tomcam.github.io/vuepress.github.io/)
 
 # Adding style to a custom VuePress theme
 
