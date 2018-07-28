@@ -33,6 +33,8 @@ to show it with keyword highlighting:
 
 #### bash 1
 
+Bash:
+
     ```bash
     echo hello, world.
     ```
@@ -54,6 +56,26 @@ to show it with keyword highlighting:
 ````bash
   echo hello, world.
 ````
+ 
+#### Javascript 1
+ 
+    ```javascript
+    document.write('hello, world.)
+    ```
+    
+```javascript
+  print("hello, world.")
+```
+ 
+#### Javascript 2
+ 
+    ```js
+    document.write('hello, world.)
+    ```
+    
+```js
+  print("hello, world.")
+```
  
 #### Javascript
  
