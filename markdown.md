@@ -28,3 +28,46 @@ to show it with keyword highlighting:
  ```yaml
  title: Welcome to Example.com
  ```
+ 
+ Many, many languages are supported. Here are a few examples:
+ 
+ #### bash
+ 
+   ```bash
+    echo hello, world.
+    ```
+    
+ ```bash
+  echo hello, world.
+ ```
+ 
+ #### Javascript
+ 
+   ```javascript
+    document.write('hello, world.)
+    ```
+    
+ ```javascript
+  print("hello, world.")
+ ```
+ 
+ #### Markdown 
+ 
+   ```markdown
+    ### hello, world.
+    ```
+    
+ ```markdown
+  ### hello, world.
+ ```
+ 
+  #### Python
+ 
+   ```python
+    print("hello, world.")
+    ```
+    
+ ```python
+  print("hello, world.")
+ ```
+ 
