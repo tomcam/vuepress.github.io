@@ -226,24 +226,32 @@ Markdown:
 
 ### Aligning text within columns
 
-Normally text is left-aligned. You can right-align it by 
+Normally text is left-aligned. You can change alignment by using colon characters
+(`:`) in the second header row, which contains the dash characters (`-`). 
 
+**To left-align the column**, replace the leftmost dash with a colon
+**To right-align the column**, replace the rightmost dash with a colon
+**To center-align the column**, both the leftmost and rightmost dashes with a colon
 
-| Alignment      | Column 1       | Column 2      |
+Here's a table showing alignment:
+
+| Alignment             | Column 1       | Column 2      |
 | --------------------- |:--------------:| -------------:|
-| Center align column 2      | *   |  |
-| Right align column 3 | | Boo |
-| Number demo           |                |   1           |
-|                       |                |   123         |
-|                       |                |   $456.67     |
+| Center align column 2 | *              |               |
+| Right align column 3  |                | Boo           |
+| Right align numbers:  |                |   1           |
+|                       |                | 123           |
+|                       |                |     $456.67   |
 
 
-|:- Left                |:- Ctr      -:| Right -:|
-| --------------------- |:--------------:| -------------:|
-| Left aligned          | Center aligned | Right aligned |
-| Number demo           |                |   1           |
-|                       |                |   123         |
-|                       |                |   $456.67     |
+    | Alignment             | Column 1       | Column 2      |
+    | --------------------- |:--------------:| -------------:|
+    | Center align column 2 | *              |               |
+    | Right align column 3  |                | Boo           |
+    | Right align numbers:  |                |   1           |
+    |                       |                | 123           |
+    |                       |                |     $456.67   |
+
 
 For more examples, see the 
 [GitHub style documentation](https://help.github.com/articles/organizing-information-with-tables/).
