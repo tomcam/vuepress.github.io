@@ -29,6 +29,7 @@ module.exports = {
 					'/custom2.md',
 				]
 			},
+			'/feedback.md',
 			'/reference.md',
 			'/cheatsheet.md',
 			'/credits.md',
