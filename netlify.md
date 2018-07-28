@@ -171,7 +171,7 @@ This `package.json` doesn't know about VuePress. So:
 
 * Update by adding a comma after `exit 1"` and the `docs:build` line as shown:
 
-```json
+```json{3}
 "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
   "docs:build": "vuepress build"
@@ -180,7 +180,7 @@ This `package.json` doesn't know about VuePress. So:
 
 * Add the `dependencies` object after `homepage`, again including the comma:
 
-```json
+```json{2-4}
  "homepage": "https://github.com/tomcam/vpdemo1#readme",
  "dependencies": {
     "vuepress": "^0.12.0"
