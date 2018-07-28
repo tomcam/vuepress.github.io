@@ -285,36 +285,31 @@ For more details, see the
 ## Emojis
 
 VuePress includes emojis as part of its Markdown extensions. You include them in your text by surrounding 
-an emoji code with colon characters. For example, you'd use `::):`, `::(:`, 
+an emoji code with colon characters. For example, you'd use `:smile:` for :smile:,
+or `:thumbsup: for :thumbsup:.
 
-::):
-
-::(:
-
-:smile:
-
-:frowning:
-
-:star:
-
-:thumbsup:
-
-:thumbsdown:
-
-:earth_africa:
-
-
-:bell:
-
-
-:sound:
+Here is a table with some common  emojis. For complete list of the supported codes see the
+[Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/).
 
 
 
-:rocket:
+| Emoji                 | Code             |
+| --------------------- | ---------------- |
+| :smile:               | `:smile:`        |
+| :frowning:            | `:frowning;`      |
+| :star: | `:star:` |
+| :thumbsup: | `:thumbsup:` |
+| :thumbsdown: | `:thumbsdown:` |
+| :earth_africa: | `:earth_africa:` |
+| :sound: | `:sound:` |
+| :rocket: | `:rocket:` |
+| :: | `::` |
+
+arrow_backward
+::
 
 
-:arrow_backward:
+::
 
 
 :arrow_forward:
