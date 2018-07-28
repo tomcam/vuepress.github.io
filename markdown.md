@@ -252,7 +252,7 @@ And they would both produce the same output.
 
 ### Aligning text within columns
 
-Normally text is left-aligned. You can change alignment by using colon characters
+Normally table text is left-aligned. You can change alignment by using colon characters
 (`:`) in the second header row, which contains the dash characters (`-`). 
 
 * **To left-align the column**, replace the leftmost dash with a colon
@@ -265,7 +265,7 @@ Here's a table showing alignment:
 | --------------------- |:--------------:| -------------:|
 | Center align column 2 | *              |               |
 | Right align column 3  |                | Boo           |
-| Right align numbers:  |                |   1           |
+| Right align numbers   |                |   1           |
 |                       |                | 123           |
 |                       |                |     $456.67   |
 
