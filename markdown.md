@@ -152,22 +152,53 @@ the PrismJS source file [components.json](https://github.com/PrismJS/prism/blob/
 
 ## Tables in VuePress Markdown
 
-VuePress uses [GitHub-style table markdown](https://help.github.com/articles/organizing-information-with-tables/).
+VuePress uses [GitHub-style table markdown](https://help.github.com/articles/organizing-information-with-tables
 
-| Simple 2 table with   | 2 columns      |
+Tables consist of a two-line required header, then zero or more rows.
 
-| Header row            |                            |
+### Required table header
+
+* At least one header consisting of a line surrounded by pipe characters, like this: `| Header |`
+* A line of dashes below the header surrounded by pipe characters like this, like this: `| ------ |`
+
+### Table rows
+
+Under the header come optional rows. They consist of text surrounded by pipe characters, like this: `| Row 1 |`
+
+Let's put it all together.
+
+### Simple table example
+
+To get a table that looks like this:
+
+| Header                |                            |
+| --------------------- | -------------------------- |
+| Row 1, Column 1       | Row 2, Column 2            |
+
+You'd use the following markdown:
+
+    | Header                |                            |
+    | --------------------- | -------------------------- |
+    | Row 1, Column 1       | Row 2, Column 2            |
+
+
+
+| Header                |                            |
 | --------------------- | -------------------------- |
 
-| Header row            |           
+| Header                |           
 | --------------------- | 
+
+| Header                |                            |
+| --------------------- | -------------------------- |
+| Row 1, Column 1       | Row 2, Column 2            |
 
 
 | Simple 2 table with   | 2 columns and a header     |
 
-| Header row            | Column 1       | Column 2      |
+| Header                | Column 1       | Column 2      |
 | --------------------- |:--------------:| -------------:|
-| Row A (left aligned)  | Center aligned | Right-aligned |
+| Left aligned          | Center aligned | Right aligned |
 | Number demo           |                |   1           |
 |                       |                |   123         |
 |                       |                |   $456.67     |
