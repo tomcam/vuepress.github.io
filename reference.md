@@ -22,7 +22,9 @@
 
 ## Markdown
 *  [Original Markdown Description](https://daringfireball.net/projects/markdown/syntax) by Jon Gruber
-*  [VuePress markdown extensions](https://vuepress.vuejs.org/guide/markdown.html)
+*  VuePress uses the Markdown-it ([website](https://markdown-it.github.io/), [source code)[https://github.com/markdown-it/markdown-it])
+extensions
+*  [VuePress documentation for markdown extensions](https://vuepress.vuejs.org/guide/markdown.html)
 
 ## YAML
 *  [YAML official site](http://yaml.org/)
