@@ -3,6 +3,7 @@
 ## VuePress overview
 * [VuePress Guide](https://vuepress.vuejs.org/guide/)
 * [GitHub Issues](https://github.com/vuejs/vuepress/issues) Looking at closed issues from time to time helps you understand things that haven't made it into the official documentation
+* [Source code for Markdown extensions supported by the default theme](https://github.com/vuejs/vuepress/blob/master/lib/markdown/index.js)
 
 ## Default theme source code
 * [Default theme](https://github.com/vuejs/vuepress/tree/master/lib/default-theme)
@@ -20,9 +21,8 @@
 *  [Stylus: Expressive, Dynamic, Robust CSS](http://stylus-lang.com/)
 
 ## Markdown
-*  [VuePress markdown](https://vuepress.vuejs.org/guide/markdown.html)
 *  [Original Markdown Description](https://daringfireball.net/projects/markdown/syntax) by Jon Gruber
-*  Markdown extensions supported by the default theme are [here](https://github.com/vuejs/vuepress/blob/master/lib/markdown/index.js)
+*  [VuePress markdown extensions](https://vuepress.vuejs.org/guide/markdown.html)
 
 ## YAML
 *  [YAML official site](http://yaml.org/)
