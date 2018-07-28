@@ -21,6 +21,9 @@ And the result would be:
 
 You can get exactly the same effect by preceding each line of code with exactly 4 spaces.
 
+### Vue code inside code blocks
+
+If you're documenting Vue.js itself, see [Escaping](https://vuepress.vuejs.org/guide/using-vue.html#escaping).
 ### Keyword highlighting
 
 The above example is valid YAML. You could follow the 3 backticks with the word `yaml`
@@ -86,8 +89,39 @@ Published result:
 ```py
   print("hello, world.")
 ```
+
+### Languages with keyword highlighting support in VuePress
+
+VuePress gets its keyword highlighting support through the [Prism](prismjs.com) Javascript library.
+
+::: tip
+There are too many languages to make an exhaustive list here, but you can find them
+in the PrismJS source file [components.json](https://github.com/PrismJS/prism/blob/master/components.json).
+
+Here are many of the most common ones.
  
-| Language     | Tag           |
+| Language      | Tag           |
 | ------------- |:------------:| 
+| Applecript    | applescript  |
+| Asciidoc      | asciidoc     |
+| ASP.NET       | aspnet       |
+| batch files   | batch        |
+| CSS           | css          |
+| Go            | go           |
+| HTTP          | http         |
+| Java          | java         |
 | Javascript    | js           |
+| JSON          | json         |
+| Markup        | markup       |
+| Markdown      | md           |
+| Objective-C   | objectivec   |
+| PHP           | php          |
+| Powershell    | powershell   |
 | Python        | py           | 
+| Ruby          | ruby         |
+| SASS          | sass         |
+| SQL           | sql          |
+| Swift         | swift        |
+| VB.NET        | vbnet        |
+| Vim           | vim          |
+| Wiki          | yaml         |
