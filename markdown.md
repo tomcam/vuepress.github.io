@@ -227,13 +227,28 @@ Markdown:
 ### Dash and space count don't matter
 
 The number of dashes used to specify the header and the number of spaces surrounding
-the pipe characters don't matter. T
+the pipe characters don't matter. Take the following table:
 
-| Column 1      | Column 2         |
+| Column 1     | Column 2         |
 | ------------ | ---------------- |
-| row 1 | 2nd column  |
-| row 2    | 2nd column    |
+| row 1        | 2nd column       |
+| row 2        | 2nd column       |
 
+You could use this crazy-ass markdown for it:
+
+    | Column 1      | Column 2         |
+    | ------------ | ---------------- |
+    | row 1 | 2nd column  |
+    | row 2    | 2nd column    |
+
+Or you could use this markup:
+
+    | Column 1     | Column 2         |
+    | ------------ | ---------------- |
+    | row 1        | 2nd column       |
+    | row 2        | 2nd column       |
+
+And they would both produce the same output.
 
 ### Aligning text within columns
 
@@ -254,6 +269,7 @@ Here's a table showing alignment:
 |                       |                | 123           |
 |                       |                |     $456.67   |
 
+Markdown:
 
     | Alignment             | Column 2       | Column 3      |
     | --------------------- |:--------------:| -------------:|
@@ -263,7 +279,6 @@ Here's a table showing alignment:
     |                       |                | 123           |
     |                       |                |     $456.67   |
 
-
-For more examples, see the 
+For more details, see the 
 [GitHub style documentation](https://help.github.com/articles/organizing-information-with-tables/).
 
