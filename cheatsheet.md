@@ -139,11 +139,23 @@ Need to [contact someone](./contact.md) on the team?
 
 As you can see, the anchor to a header such as `## Rosie Greer` flattened out. 
 Everything gets converted to lower case, and spaces are replaced with hypens.
-This location name is generated as `rosie-greer`Good news! [Rosie's](./contact.md#rosie-greer)
-head graft is a major success!`, so the complete link appears
-in the Markdown source as `Good news! [Rosie's](./contact.md#rosie-greer)
-head graft is a major success!`. Ifyou click Rosie's name you'll
+This location name is synthesized as `#rosie-greer`:
+
+```
+Good news! [Rosie's](./contact.md#rosie-greer)
+head graft is a major success!
+```
+
+If you click Rosie's name you'll
 be taken directly to that position in the file.
+
+## Tables
+
+[Tables in VuePress markdown](markdown.html#tables-in-vuepress-markdown)
+
+## Emojis
+
+
 
 ```
 ┌── README.md
