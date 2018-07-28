@@ -93,13 +93,13 @@ Published result:
  
 #### Python
  
-    ```py
+    ```python
     print("hello, world.")
     ```
 
 Published result:
 
-```py
+```python
 print("hello, world.")
 ```
 
@@ -127,6 +127,7 @@ Here are many of the most common ones.
 | Javascript    | js           |
 | JSON          | json         |
 | Markup        | markup       |
+| Markdown      | markdown     |
 | Markdown      | md           |
 | Objective-C   | objectivec   |
 | PHP           | php          |
