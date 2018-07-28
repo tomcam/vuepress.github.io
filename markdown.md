@@ -37,9 +37,7 @@ to show it with keyword highlighting:
  
  Many, many languages are supported. Here are a few examples:
 
-#### bash 1
-
-Bash:
+#### bash
 
     ```bash
     echo hello, world.
