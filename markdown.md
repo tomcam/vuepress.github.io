@@ -159,6 +159,10 @@ VuePress uses [GitHub-style table markdown](https://help.github.com/articles/org
 | Header row            |                            |
 | --------------------- | -------------------------- |
 
+| Header row            |           
+| --------------------- | 
+
+
 | Simple 2 table with   | 2 columns and a header     |
 
 | Header row            | Column 1       | Column 2      |
