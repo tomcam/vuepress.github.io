@@ -173,28 +173,73 @@ To get a table that looks like this:
 
 | Header                |                            |
 | --------------------- | -------------------------- |
-| Row 1, Column 1       | Row 2, Column 2            |
+| Row 1, Column 1       | Row 1, Column 2            |
 
 You'd use the following markdown:
 
     | Header                |                            |
     | --------------------- | -------------------------- |
-    | Row 1, Column 1       | Row 2, Column 2            |
+    | Row 1, Column 1       | Row 1, Column 2            |
 
+### Minimum table: a header only
 
-
-| Header                |                            |
-| --------------------- | -------------------------- |
+The absolute minimum table would consist of a single header with no rows:
 
 | Header                |           
 | --------------------- | 
 
-| Header                |                            |
-| --------------------- | -------------------------- |
-| Row 1, Column 1       | Row 2, Column 2            |
+Markdown:
+
+    | Header                |           
+    | --------------------- | 
+
+### Table with one header and one column:
+
+Let's extend the previous example with one row:
+
+| Header                |                            
+| --------------------- | 
+| Single cell           |
+
+Markdown:
+
+    | Header                |                            
+    | --------------------- | 
+    | Single cell           |
+
+### Typical table with several rows
+
+Most tables have multiple columns and rows, for example:
+
+| Header          |                  |
+| --------------- | ---------------- |
+| Row 1, Column 1 | Row 1, Column 2  |
+| Row 2, Column 1 | Row 2, Column 2  |
+| Row 3, Column 1 | Row 3, Column 2  |
+| Row 4, Column 1 | Row 4, Column 2  |
+
+Markdown:
+
+    | Header          |                  |
+    | --------------- | ---------------- |
+    | Row 1, Column 1 | Row 1, Column 2  |
+    | Row 2, Column 1 | Row 2, Column 2  |
+    | Row 3, Column 1 | Row 3, Column 2  |
+    | Row 4, Column 1 | Row 4, Column 2  |
+
+### Aligning text within columns
+
+Normally text is left-aligned. You can right-align it by 
 
 
-| Simple 2 table with   | 2 columns and a header     |
+| Alignment      | Column 1       | Column 2      |
+| --------------------- |:--------------:| -------------:|
+| Center align column 2      | *   |  |
+| Right align column 3 | | Boo |
+| Number demo           |                |   1           |
+|                       |                |   123         |
+|                       |                |   $456.67     |
+
 
 | Header                | Column 1       | Column 2      |
 | --------------------- |:--------------:| -------------:|
