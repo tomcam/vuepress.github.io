@@ -31,9 +31,9 @@ to show it with keyword highlighting:
  
  Many, many languages are supported. Here are a few examples:
  
- #### bash
- 
-   ```bash
+#### bash
+
+    ```bash
     echo hello, world.
     ```
     
@@ -41,9 +41,9 @@ to show it with keyword highlighting:
   echo hello, world.
 ````
  
- #### Javascript
+#### Javascript
  
-   ```javascript
+    ```javascript
     document.write('hello, world.)
     ```
     
