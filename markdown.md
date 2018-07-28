@@ -25,9 +25,9 @@ to show it with keyword highlighting:
     ```
  The result would show like this:
  
- ````yaml
+````yaml
  title: Welcome to Example.com
- ````
+````
  
  Many, many languages are supported. Here are a few examples:
  
@@ -47,9 +47,9 @@ to show it with keyword highlighting:
     document.write('hello, world.)
     ```
     
- ```javascript
+```javascript
   print("hello, world.")
- ```
+```
  
  #### Markdown 
  
