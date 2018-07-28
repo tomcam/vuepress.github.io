@@ -282,3 +282,46 @@ Markdown:
 For more details, see the 
 [GitHub style documentation](https://help.github.com/articles/organizing-information-with-tables/).
 
+## Emojis
+
+VuePress includes emojis as part of its Markdown extensions. You include them in your text by surrounding 
+an emoji code with colon characters. For example, you'd use `::):`, `::(:`, 
+
+::):
+
+::(:
+
+:smile:
+
+:frowning:
+
+:star:
+
+:thumbsup:
+
+:thumbsdown:
+
+:earth_africa:
+
+
+:bell:
+
+
+:sound:
+
+
+
+:rocket:
+
+
+:arrow_backward:
+
+
+:arrow_forward:
+:mute:
+
+
+https://www.webpagefx.com/tools/emoji-cheat-sheet/
+
+https://help.github.com/articles/basic-writing-and-formatting-syntax/#paragraphs-and-line-breaks
+
