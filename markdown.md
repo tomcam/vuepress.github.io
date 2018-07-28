@@ -30,8 +30,22 @@ to show it with keyword highlighting:
 ````
  
  Many, many languages are supported. Here are a few examples:
+
+#### bash 1
+
+    ```bash
+    echo hello, world.
+    ```
+ The result would show like this:
  
-#### bash
+````bash
+ echo hello, world.
+````
+
+
+
+
+#### bash 2
 
     ```bash
     echo hello, world.
