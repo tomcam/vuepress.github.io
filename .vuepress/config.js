@@ -19,6 +19,7 @@ module.exports = {
 					'/config-description.md',
 				]
 			},
+			'/markdown.md',
 			'/style-overriding-default.md',
 			['/netlify.md', 'Deploying to Netlify'],
 			{
