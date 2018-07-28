@@ -68,13 +68,13 @@ Published result:
   
  #### Markdown 
  
-   ```md
+   ```markdown
     ### hello, world.
     ```
     
 Published result:
 
-```md
+```markdown
   ### hello, world.
 ```
  
@@ -97,6 +97,7 @@ VuePress gets its keyword highlighting support through the [Prism](prismjs.com) 
 ::: tip
 There are too many languages to make an exhaustive list here, but you can find them
 in the PrismJS source file [components.json](https://github.com/PrismJS/prism/blob/master/components.json).
+:::
 
 Here are many of the most common ones.
  
