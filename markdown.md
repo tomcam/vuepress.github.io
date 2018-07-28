@@ -24,6 +24,7 @@ You can get exactly the same effect by preceding each line of code with exactly 
 ### Vue code inside code blocks
 
 If you're documenting Vue.js itself, see [Escaping](https://vuepress.vuejs.org/guide/using-vue.html#escaping).
+
 ### Keyword highlighting
 
 The above example is valid YAML. You could follow the 3 backticks with the word `yaml`
@@ -38,7 +39,7 @@ to show it with keyword highlighting:
  title: Welcome to Example.com
 ````
  
- Many, many languages are supported. Here are a few examples:
+Many, many languages are supported. Here are a few examples:
 
 #### bash
 
@@ -66,11 +67,11 @@ Published result:
   document.write('hello, world.)
 ```
   
- #### Markdown 
+#### Markdown 
  
-   ```markdown
-    ### hello, world.
-    ```
+     ```markdown
+      ### hello, world.
+     ```
     
 Published result:
 
@@ -78,7 +79,7 @@ Published result:
   ### hello, world.
 ```
  
-  #### Python
+#### Python
  
    ```py
     print("hello, world.")
