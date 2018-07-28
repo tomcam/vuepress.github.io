@@ -2,7 +2,7 @@
 
 ## VuePress overview
 * [VuePress Guide](https://vuepress.vuejs.org/guide/)
-* [GitHub Issues](https://github.com/vuejs/vuepress/issues)
+* [GitHub Issues](https://github.com/vuejs/vuepress/issues) Looking at closed issues from time to time helps you understand things that haven't made it into the official documentation
 
 ## Default theme source code
 * [Default theme](https://github.com/vuejs/vuepress/tree/master/lib/default-theme)
