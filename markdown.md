@@ -316,27 +316,13 @@ Here is a table with some common  emojis. For complete list of the supported cod
 | :bell: | `:bell:` |
 | :no_bell: | `:no_bell:` |
 | :computer: | `:computer:` |
-| :lock: | `::` |
-| :unlockk: | `::` |
-| :house: | `::` |
-| :office: | `::` |
-| :hospital: | `::` |
-
+| :lock: | `:lock:` |
+| :unlock: | `:unlock:` |
+| :house: | `:house:` |
+| :office: | `:office:` |
+| :hospital: | `:hospital:` |
 | :rocket: | `:rocket:` |
 | :arrow_backward: | `:arrow_backward:` |
 | :arrow_forward: | `:arrow_forward:` |
-| :: | `::` |
-| :: | `::` |
-| :: | `::` |
-| :: | `::` |
-| :: | `::` |
-| :: | `::` |
 
-Complete list: [Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/).
-
-
-
-https://www.webpagefx.com/tools/emoji-cheat-sheet/
-
-https://help.github.com/articles/basic-writing-and-formatting-syntax/#paragraphs-and-line-breaks
-
+**Complete list:** [Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/).
