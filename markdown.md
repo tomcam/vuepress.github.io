@@ -154,6 +154,13 @@ the PrismJS source file [components.json](https://github.com/PrismJS/prism/blob/
 
 VuePress uses [GitHub-style table markdown](https://help.github.com/articles/organizing-information-with-tables/).
 
+| Simple 2 table with   | 2 columns      |
+
+| Header row            |                            |
+| --------------------- | -------------------------- |
+
+| Simple 2 table with   | 2 columns and a header     |
+
 | Header row            | Column 1       | Column 2      |
 | --------------------- |:--------------:| -------------:|
 | Row A (left aligned)  | Center aligned | Right-aligned |
