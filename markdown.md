@@ -68,7 +68,7 @@ Published result:
   
  #### Markdown 
  
-   ```mmd
+   ```md
     ### hello, world.
     ```
     
@@ -76,7 +76,7 @@ Published result:
 
 ```md
   ### hello, world.
- ```
+```
  
   #### Python
  
