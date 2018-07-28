@@ -229,9 +229,9 @@ Markdown:
 Normally text is left-aligned. You can change alignment by using colon characters
 (`:`) in the second header row, which contains the dash characters (`-`). 
 
-**To left-align the column**, replace the leftmost dash with a colon
-**To right-align the column**, replace the rightmost dash with a colon
-**To center-align the column**, both the leftmost and rightmost dashes with a colon
+* **To left-align the column**, replace the leftmost dash with a colon
+* **To right-align the column**, replace the rightmost dash with a colon
+* **To center-align the column**, both the leftmost and rightmost dashes with a colon
 
 Here's a table showing alignment:
 
