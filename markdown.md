@@ -120,8 +120,8 @@ in the PrismJS source file [components.json](https://github.com/PrismJS/prism/bl
 
 Here are many of the most common ones.
  
-| Language      | Tag           |
-| ------------- |:------------:| 
+| Language      | Tag          |
+| ------------- |:-------------| 
 | Applecript    | applescript  |
 | Asciidoc      | asciidoc     |
 | ASP.NET       | aspnet       |
@@ -282,13 +282,13 @@ Markdown:
 For more details, see the 
 [GitHub style documentation](https://help.github.com/articles/organizing-information-with-tables/).
 
-## Emojis
+## Emojis in VuePress markdown
 
 VuePress includes emojis as part of its Markdown extensions. You include them in your text by surrounding 
 an emoji code with colon characters. For example, you'd use `:smile:` for :smile:,
-or `:thumbsup: for :thumbsup:.
+or `:thumbsup:` for :thumbsup:.
 
-Here is a table with some common  emojis. For complete list of the supported codes see the
+Here is a table with some common  emojis. For the full list of supported codes see the
 [Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/).
 
 
