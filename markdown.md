@@ -76,19 +76,31 @@ Published result:
 Published result:
 
 ```markdown
-  ### hello, world.
+### hello, world.
+```
+ 
+#### Markdown 2
+ 
+     ```md
+      ### hello, world.
+     ```
+    
+Published result:
+
+```md
+### hello, world.
 ```
  
 #### Python
  
-   ```py
+    ```py
     print("hello, world.")
     ```
 
 Published result:
 
 ```py
-  print("hello, world.")
+print("hello, world.")
 ```
 
 ### Languages with keyword highlighting support in VuePress
@@ -127,3 +139,5 @@ Here are many of the most common ones.
 | VB.NET        | vbnet        |
 | Vim           | vim          |
 | Wiki          | yaml         |
+
+## Tables in VuePress Markdown
