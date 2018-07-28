@@ -33,7 +33,7 @@ to show it with keyword highlighting:
     ```yaml
     title: Welcome to Example.com
     ```
- The result would show like this:
+ The published result would show like this:
  
 ````yaml
  title: Welcome to Example.com
@@ -43,20 +43,20 @@ Many, many languages are supported. Here are a few examples:
 
 #### bash
 
-Markdown:
+Markdown source:
 
     ```bash
     echo hello, world.
     ```
- The result would show like this:
-
 Published result:
 
 ```bash
  echo hello, world.
 ``` 
 #### Javascript
- 
+
+Markdown source:
+
     ```js
     document.write('hello, world.)
     ```
@@ -69,6 +69,8 @@ Published result:
   
 #### Markdown 
  
+Markdown source:
+
      ```markdown
       ### hello, world.
      ```
@@ -79,8 +81,10 @@ Published result:
 ### hello, world.
 ```
  
-#### Markdown 2
+#### Markdown (alternative)
  
+Markdown source:
+
      ```md
       ### hello, world.
      ```
@@ -93,6 +97,8 @@ Published result:
  
 #### Python
  
+Markdown source:
+
     ```python
     print("hello, world.")
     ```
@@ -141,4 +147,20 @@ Here are many of the most common ones.
 | Vim           | vim          |
 | Wiki          | yaml         |
 
+Complete list can be found in the "languages" node of 
+the PrismJS source file [components.json](https://github.com/PrismJS/prism/blob/master/components.json).
+
 ## Tables in VuePress Markdown
+
+VuePress uses [GitHub-style table markdown](https://help.github.com/articles/organizing-information-with-tables/).
+
+| Header row            | Column 1       | Column 2      |
+| --------------------- |:--------------:| -------------:|
+| Row A (left aligned)  | Center aligned | Right-aligned |
+| Number demo           |                |   1           |
+|                       |                |   123         |
+|                       |                |   $456.67     |
+
+For more examples, see the 
+[GitHub style documentation](https://help.github.com/articles/organizing-information-with-tables/).
+
