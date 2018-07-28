@@ -152,11 +152,11 @@ the PrismJS source file [components.json](https://github.com/PrismJS/prism/blob/
 
 ## Tables in VuePress Markdown
 
-VuePress uses [GitHub-style table markdown](https://help.github.com/articles/organizing-information-with-tables
-
-Tables consist of a two-line required header, then zero or more rows.
+VuePress uses [GitHub-style table markdown](https://help.github.com/articles/organizing-information-with-tables).
 
 ### Table syntax simplified
+
+Tables consist of a two-line required header, then zero or more rows.
 
 * At least one header consisting of a line surrounded by pipe characters: `| Header |`
 * A line of dashes surrounded by pipe characters: `| ------ |`
@@ -238,7 +238,7 @@ Normally text is left-aligned. You can right-align it by
 |                       |                |   $456.67     |
 
 
-|: Left                |: Ctr      :| Right :|
+|:- Left                |:- Ctr      -:| Right -:|
 | --------------------- |:--------------:| -------------:|
 | Left aligned          | Center aligned | Right aligned |
 | Number demo           |                |   1           |
