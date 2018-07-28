@@ -65,13 +65,13 @@ Published result:
   
  #### Markdown 
  
-   ```markdown
+   ```mmd
     ### hello, world.
     ```
     
 Published result:
 
-```markdown
+```md
   ### hello, world.
  ```
  
@@ -87,3 +87,7 @@ Published result:
   print("hello, world.")
 ```
  
+| Language     | Tag           |
+| ------------- |:------------:| 
+| Javascript    | js           |
+| Python        | py           | 
