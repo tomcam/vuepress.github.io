@@ -224,6 +224,17 @@ Markdown:
     | Row 3, Column 1 | Row 3, Column 2  |
     | Row 4, Column 1 | Row 4, Column 2  |
 
+### Dash and space count don't matter
+
+The number of dashes used to specify the header and the number of spaces surrounding
+the pipe characters don't matter. T
+
+| Column 1      | Column 2         |
+| ------------ | ---------------- |
+| row 1 | 2nd column  |
+| row 2    | 2nd column    |
+
+
 ### Aligning text within columns
 
 Normally text is left-aligned. You can change alignment by using colon characters
@@ -235,7 +246,7 @@ Normally text is left-aligned. You can change alignment by using colon character
 
 Here's a table showing alignment:
 
-| Alignment             | Column 1       | Column 2      |
+| Alignment             | Column 2       | Column 3      |
 | --------------------- |:--------------:| -------------:|
 | Center align column 2 | *              |               |
 | Right align column 3  |                | Boo           |
@@ -244,7 +255,7 @@ Here's a table showing alignment:
 |                       |                |     $456.67   |
 
 
-    | Alignment             | Column 1       | Column 2      |
+    | Alignment             | Column 2       | Column 3      |
     | --------------------- |:--------------:| -------------:|
     | Center align column 2 | *              |               |
     | Right align column 3  |                | Boo           |
