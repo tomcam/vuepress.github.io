@@ -1,5 +1,3 @@
-[Home](https://tomcam.github.io/vuepress.github.io/) 
-
 # Creating a minimal VuePress custom theme
 
 These notes show how to create a minimal custom theme from scratch and use it in a
