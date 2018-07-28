@@ -25,9 +25,9 @@ to show it with keyword highlighting:
     ```
  The result would show like this:
  
- ```yaml
+ ````yaml
  title: Welcome to Example.com
- ```
+ ````
  
  Many, many languages are supported. Here are a few examples:
  
@@ -37,9 +37,9 @@ to show it with keyword highlighting:
     echo hello, world.
     ```
     
- ```bash
+````bash
   echo hello, world.
- ```
+````
  
  #### Javascript
  
