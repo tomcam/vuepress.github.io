@@ -156,14 +156,11 @@ VuePress uses [GitHub-style table markdown](https://help.github.com/articles/org
 
 Tables consist of a two-line required header, then zero or more rows.
 
-### Required table header
+### Table syntax simplified
 
-* At least one header consisting of a line surrounded by pipe characters, like this: `| Header |`
-* A line of dashes below the header surrounded by pipe characters like this, like this: `| ------ |`
-
-### Table rows
-
-Under the header come optional rows. They consist of text surrounded by pipe characters, like this: `| Row 1 |`
+* At least one header consisting of a line surrounded by pipe characters: `| Header |`
+* A line of dashes surrounded by pipe characters: `| ------ |`
+* Zero or more rows text surrounded by pipe characters, like this: `| Row 1 |`
 
 Let's put it all together.
 
@@ -241,7 +238,7 @@ Normally text is left-aligned. You can right-align it by
 |                       |                |   $456.67     |
 
 
-|: Left                |: Ctr      | Right :|
+|: Left                |: Ctr      :| Right :|
 | --------------------- |:--------------:| -------------:|
 | Left aligned          | Center aligned | Right aligned |
 | Number demo           |                |   1           |
