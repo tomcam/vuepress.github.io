@@ -39,11 +39,15 @@ to show it with keyword highlighting:
 
 #### bash
 
+Markdown:
+
     ```bash
     echo hello, world.
     ```
  The result would show like this:
- 
+
+Published result:
+
 ```bash
  echo hello, world.
 ``` 
@@ -53,6 +57,8 @@ to show it with keyword highlighting:
     document.write('hello, world.)
     ```
     
+Published result:
+
 ```js
   document.write('hello, world.)
 ```
@@ -63,7 +69,9 @@ to show it with keyword highlighting:
     ### hello, world.
     ```
     
- ```markdown
+Published result:
+
+```markdown
   ### hello, world.
  ```
  
@@ -72,8 +80,10 @@ to show it with keyword highlighting:
    ```py
     print("hello, world.")
     ```
-    
- ```py
+
+Published result:
+
+```py
   print("hello, world.")
- ```
+```
  
