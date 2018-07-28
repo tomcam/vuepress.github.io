@@ -193,7 +193,7 @@ Markdown:
     | Header                |           
     | --------------------- | 
 
-### Table with one header and one column:
+### Table with one header and one row:
 
 Let's extend the previous example with one row:
 
@@ -211,7 +211,7 @@ Markdown:
 
 Most tables have multiple columns and rows, for example:
 
-| Header          |                  |
+| Column 1        | Column 2         |
 | --------------- | ---------------- |
 | Row 1, Column 1 | Row 1, Column 2  |
 | Row 2, Column 1 | Row 2, Column 2  |
@@ -220,7 +220,7 @@ Most tables have multiple columns and rows, for example:
 
 Markdown:
 
-    | Header          |                  |
+    | Column 1        | Column 2         |
     | --------------- | ---------------- |
     | Row 1, Column 1 | Row 1, Column 2  |
     | Row 2, Column 1 | Row 2, Column 2  |
@@ -241,7 +241,7 @@ Normally text is left-aligned. You can right-align it by
 |                       |                |   $456.67     |
 
 
-| Header                | Column 1       | Column 2      |
+|: Left                |: Ctr      | Right :|
 | --------------------- |:--------------:| -------------:|
 | Left aligned          | Center aligned | Right aligned |
 | Number demo           |                |   1           |
