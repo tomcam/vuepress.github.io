@@ -34,10 +34,10 @@ For example, if your project is at `%HOMEDRIVE%%HOMEPATH%\mybook`:
 > md %HOMEDRIVE%%HOMEPATH%\mybook\assets\css
 ```
 
-## Create the home page
+## Change to the project directory
 
-The home page of a site using the default VuePress theme is kind of a splash screen, more for 
-showing off a site than for reference. So give it a nice bold image.
+Now move to the root directory of the VuePress project so you can
+start creating Markdown files.
 
 * Change to the project root directory (MacOS):
 
@@ -55,18 +55,88 @@ $ cd  ~/mybook
 > cd  %HOMEDRIVE%%HOMEPATH%\mybook
 ```
 
-### Add a hero image
+## Create README.md
+
+All VuePress sites have at least one directory containing a  `README.md` text file
+formatted using Markdown. That directory may contain other Markdown files with the 
+`.md` extension. Here's a simple `README.md`:
+
+```markdown
+# Welcome to to Example.com
+
+Let's face it. You're darn lucky to be here.
+
+Need to [contact someone](./contact.md) on the team?
+```
+
+### Special properties of README.md
+
+Markdown files get converted into HTML files by the same name, but with an `.html` extension.
+`README.md` is an exception. It gets renamed completely, to `index.html`, because by convention that's
+how web servers normally find the root file of a website.
+
+`README.md` files must start with a header. It doesn't have to be an H1 (`#` as shown above) but it should
+be either H2  (`##`) or H3  (`###`) for proper generation of search indexes and sidebars.
+
+Another property of `README.md` as mentioned before is that if you want to organize
+your site using directories, a directory is invisible to VuePress unless it has a `README.md` 
+in it.
+
+## The absolute least you need to know about Markdown
+
+Lines with no special treatment get converted into standard HTML paragraph tags.
+
+### Headers start with one or more # characters
+
+Lines starting with `#` get converted to HTML H1 headers, lines starting with `##` become H2 headers, and so on.
+Organize your site carefully using headers because levels H1-H3 are indexed automatically by VuePress and
+the VuePress search dialog works at blinding speed.
+
+Markdown such as ` [contact someone](./contact.md)` gets turned into an HTML link. The part 
+of the link in square brackets, `contact someone` in this case, becomes the anchor text (the
+visible part of a link, and the part that gets indexed by search engines). The part in 
+parentheses, `./contact.md` in this case, gets becomes a reference to an HTML file by the same 
+name, which would be `contact.html` in the current directory.
+
+###
+
+```
+┌── README.md
+├── about.md
+├── chapter1.md
+├── chapter2.md
+└── .vuepress/
+```
+
+If you have sections consisting of more than one file, it's very 
+useful to put them in subdirectories. Each subdirectory must
+contain a `README.md` of its own. 
+ 
+```
+┌── README.md
+├── chapter1.md
+├── chapter2.md
+└── chapter3/
+        ├── README.md
+        ├── article1.md
+        └── article2.md
+```
+
+## Change home page behavior with YAML
+
+### Obtain a hero image
 
 * Obtain an image file for the main home page image (called the hero image). In this example
 it's called logo.png but the name and size don't matter. 
 
-It's best to get one with
+It helps to get one with
 a transparent or white background if you're using the default VuePress theme
 with no changes.
 
-### Create README.md
+## Add special YAML instructions for the home README.md
 
-* Create the file `README.md` and give it the following contents.
+The root `README.md` page can be customized extensively by adding 
+special configuration text in YAML format.
 
 The parts in between `---` lines are called [YAML](/default2.md). They do not display directly but
 they contain site settings. The site's content appears after the second `---`, so in this case it's
@@ -111,14 +181,5 @@ module.exports = {
   description: "Springfield's best Chinese food!"
 }
 ```
-
-## Adding other sections (directories)
-
-You can add more directories to organize your site. Each directory must contain 
-file named `README.md`. To continue with the restaurant them, let's add lunch and dinner sections.
-
-### Create subdirectories named lunch and dinner
-
-* Create two subdirectories at peer level, `lunch` and `dinner`.
 
 
