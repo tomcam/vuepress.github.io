@@ -48,51 +48,17 @@ Bash:
  
 ```bash
  echo hello, world.
-```
-
-
-
-
-#### bash 2
-
-    ```bash
-    echo hello, world.
-    ```
-    
-````bash
-  echo hello, world.
-````
- 
-#### Javascript 1
- 
-    ```javascript
-    document.write('hello, world.)
-    ```
-    
-```javascript
-  print("hello, world.")
-```
- 
-#### Javascript 2
+``` 
+#### Javascript
  
     ```js
     document.write('hello, world.)
     ```
     
 ```js
-  print("hello, world.")
+  document.write('hello, world.)
 ```
- 
-#### Javascript
- 
-    ```javascript
-    document.write('hello, world.)
-    ```
-    
-```javascript
-  print("hello, world.")
-```
- 
+  
  #### Markdown 
  
    ```markdown
@@ -105,11 +71,11 @@ Bash:
  
   #### Python
  
-   ```python
+   ```py
     print("hello, world.")
     ```
     
- ```python
+ ```py
   print("hello, world.")
  ```
  
