@@ -28,6 +28,7 @@ module.exports = {
 					'/custom2.md',
 				]
 			},
+			'/reference.md',
 			'/cheatsheet.md',
 			'/credits.md',
 			
