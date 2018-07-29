@@ -11,8 +11,13 @@ example for a small- to medium-sized project it's best to put them in
 a root-level image directory. Vuepress sets no requirements
 on your directory structure.
 
-* It's best to create a central directory for images. For example, a
+::: tip
+
+It's best to create a central directory for images. For example, a
 project's directory tree could like this:
+
+:::
+
 
 ```
 ┌── README.md
