@@ -8,7 +8,8 @@ the official VuePress documentaton
 ## Page title
 
 VuePress derives the title of the page (normally shown in search engines and browser tabs) from
-the contents of its first header. You can override it by using the `title` attribute:
+the contents of its first header. You can override it by using the `title` attribute using 
+[YAML front matter](./yaml.md):
 
 ```markdown
 ---
@@ -19,8 +20,9 @@ title: World's best guitar
 The Fender Performer debuted in 1986.
 ```
 
-In the example above, the page title in your browser browser tab would contain 
-the text `About the Fender Performer`. That's overridden by the `title` attribute.
+In the example above, without the YAML, your browser tab's page title would normally contain 
+the text `About the Fender Performer`. 
+That's overridden by the YAML `title` attribute.
 Instead, it would contain the text `World's best guitar`.
 
 ## Description meta-tag
