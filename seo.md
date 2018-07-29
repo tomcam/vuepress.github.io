@@ -13,6 +13,10 @@
       - Does anything override using the first header to generate browser tab?
 -->
 
+#### Reference
+
+See See the [Front matter](https://vuepress.vuejs.org/guide/markdown.html#front-matter) in
+the official VuePress documentaton
 
 ## Description shown by search engines
 
