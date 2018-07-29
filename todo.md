@@ -7,7 +7,7 @@ illustrated examples. I also think it's no longer accurate.
 
 ## markdown.md
 
-[markdown.md)(./markdown.md): Add info about [escaping](https://vuepress.vuejs.org/guide/using-vue.html#escaping)
+[markdown.md](./markdown.md): Add info about [escaping](https://vuepress.vuejs.org/guide/using-vue.html#escaping)
 
 ## style-overriding-default.md
 
