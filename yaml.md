@@ -11,7 +11,7 @@ title: Dude!
 # hello, world.
 ```
 
-Because it precedes the page content is is sometimes referred to as [front matter](https://jekyllrb.com/docs/frontmatter/).
+Because it precedes the page content it is sometimes referred to as [front matter](https://jekyllrb.com/docs/frontmatter/).
 
 #### References
 
