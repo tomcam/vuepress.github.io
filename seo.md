@@ -20,11 +20,14 @@ the official VuePress documentaton
 
 ## Description shown by search engines
 
+Search engines like to find an HTML `description` meta-tag on each page, and they will normally
+use it in search results. You can add it to a page using [YAML](./yamld.md#description-meta-tag).
+
 ## Page title (text of browser tab)
 
 The text of the first header appears in your browser tab. It's assembled from two sources:
 
-1. The first header on your page
+1. The first header on your page or as defined in the page's [YAML front matter](./yaml.md#page-title).
 2. The [site title defined in config.js](./config-title.md)
 
 They're separated using the vertical pipe character and a space on each side.
@@ -44,7 +47,7 @@ any standards documents.
 ### When there's no site title defined
 
 If you haven't created a site title in [config.js](./config-title.md) 
-the title is taken from the first header. 
+the title is taken from the first header on the current page. 
 
 ## Favicon
 
