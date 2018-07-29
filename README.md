@@ -1,6 +1,6 @@
 # VuePress Book
 
-Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuepressbook.com](http://www.vuepressbook.com)
+Read the [VuePress book online](http://vuepressbook.com) at https://www.vuepressbook.com or on [GitHub](https://github.com/tomcam/vuepress.github.io) at https://github.com/tomcam/vuepress.github.io
 
 ## Creating a website with the default VuePress theme
 * [Creating your home page](/default1.md)
