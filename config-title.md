@@ -1,4 +1,4 @@
-# Adding a title, hamburger menu, and search to your site
+# Adding a site title, hamburger menu, and search to your site
 
 The simplest addition to [config.js](./config1.md) is the `title` attribute. 
 This gives your site a whole list of features: search, a consistent title across
@@ -39,13 +39,15 @@ In a moment you'll see a change:
 
 ![Screen shot of home page with title from config.js](./assets/img/config-title.png)
 
-## What the title does
+## What the site title does
 
-The title is added to all pages and, in the default theme, is added to the navbar.
+The site title is added to all pages and, in the default theme, is added to the navbar.
+
+#### Reference
 
 See the VuePress [title](https://vuepress.vuejs.org/config/#title) documenation.
 
-## Adding title adds search to every page
+## Adding site title adds search to every page
 
 A new header appears on every page, consisting of a hamburger menu to the left, the title "Dim Sum!", and retractable 
 search feature.
