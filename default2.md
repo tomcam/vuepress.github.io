@@ -39,9 +39,9 @@ heroText: Springfield Dim Sum
 ---
 ```
 
-## VuePress YAML is different depending on the theme
+## VuePress YAML varies depending on the theme
 
-Most YAML directives depend on the theme itself. This section assumes you're using the VuePress default theme.
+Some YAML directives depend on the theme itself. This section assumes you're using the VuePress default theme.
 Other VuePress themes will have different YAML options.
 
-Let's YAML in action. We'll use it to add a big centered title to the home page.
+Let's see YAML in action. We'll use it to add a big centered title to the home page.
