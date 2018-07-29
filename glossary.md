@@ -67,3 +67,18 @@ normally synonomous with [markdown](#markdown), which is an extended
 version of markup. 
 
 See the [Markdown](./markdown.md) chapter.
+
+## page title
+
+The page title appears in your browser and is defined either
+by the first header on the page or using [YAML](./yaml.md#page-title).
+It's different from the [site title](#site-title), which appears 
+on all pages if defined.
+
+## site title
+
+The site title appears on every page if you've configured it. 
+The Vuepress default theme appends it to the page name in browser titles
+if it's been [defined using config.js](./config-title.md).
+The site title is different from the [page title](#page-title).
+
