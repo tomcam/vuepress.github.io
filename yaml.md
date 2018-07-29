@@ -1,9 +1,23 @@
 # Change page information with YAML
 
-#### Reference
+Each page in a VuePress site can optionally start with information designed to change
+its behavior. It's in a format called [YAML](http://yaml.org/), and is delineated by lines consisting of
+exactly three dashes. They must start the file, and look something like this:
 
-See the [Front matter](https://vuepress.vuejs.org/guide/markdown.html#front-matter) in
-the official VuePress documentaton
+```markdown
+---
+title: Dude!
+---
+# hello, world.
+```
+
+Because it precedes the page content is is sometimes referred to as [front matter](https://jekyllrb.com/docs/frontmatter/).
+
+#### References
+
+* Official VuePress [Front matter](https://vuepress.vuejs.org/guide/markdown.html#front-matter) documentaton
+* Official Jekyll [front matter](https://jekyllrb.com/docs/frontmatter/) documenation
+* [YAML](http://yaml.org/) standard
 
 ## Page title
 
