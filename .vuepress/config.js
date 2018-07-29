@@ -1,5 +1,5 @@
 module.exports = {
-    title: "VuePress Book",
+    title: "| VuePress Tutorial",
 	themeConfig: {
 		
 		sidebar: [
