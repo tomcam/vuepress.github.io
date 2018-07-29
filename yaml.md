@@ -1,4 +1,4 @@
-# Change page information with YAML
+# Changing page information with YAML
 
 Each page in a VuePress site can optionally start with information designed to change
 its behavior. It's in a format called [YAML](http://yaml.org/), and is delineated by lines consisting of
