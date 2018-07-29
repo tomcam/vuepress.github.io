@@ -7,9 +7,9 @@ restaurant named Springfield Dim Sum.
 ## Workflow
 
 After you've installed [Node.js](https://nodejs.org) and [VuePress](https://vuepress.vuejs.org/guide/getting-started.html)
-the typical workflow described here is as follows:
+the typical workflow for creating a site is:
 
-* Create a working directory and change to it
+ Create a working directory and change to it
 * Write markup files (text files with names ending in `.md` following a simple formatting convention
 called [markdown](https://en.wikipedia.org/wiki/Markdown)), with the home page always named `README.md`,
 and save them in the working directory
@@ -62,7 +62,7 @@ The command prompt appears.
 
 Go to your normal work area, create the working directory, and move to it. 
 
-In this case you would replace `~/code/vue/vuepress` with wherever you choose to put your VuePress files. This site’s directory is creatively called `demo1`. It's also good to create subdirectories
+In this case you would replace `~/code/` with wherever you choose to put your VuePress files. This site’s directory is creatively called `demo1`. It's also good to create subdirectories
 for image and style sheet assets.
 
 * Create the working directory and a subdirectory under it named `.vuepress` (don't forget that it starts with the period character). You can create them all at once like this:
@@ -70,15 +70,15 @@ for image and style sheet assets.
 ```bash
 # Create full directory path, including the
 # necessary hidden directory .vuepress
-$ mkdir -p ~/code/vue/vuepress/demo1/.vuepress
+$ mkdir -p ~/code/demo1/.vuepress
 ```
 
 * And directories for assets such as images and style sheets. They can go anywhere; Vuepress imposes no convention for directories.
 
 ```bash
 # Create directories for images and CSS.
-$ mkdir -p ~/code/vue/vuepress/demo1/assets/img
-$ mkdir -p ~/code/vue/vuepress/demo1/assets/css
+$ mkdir -p ~/code/demo1/assets/img
+$ mkdir -p ~/code/demo1/assets/css
 ```
 
 ::: tip
@@ -89,14 +89,14 @@ VuePress sites other than the tiniest demos require it.
 
 ```bash
 # Make it the working directory.
-$ cd ~/code/vue/vuepress/demo1
+$ cd ~/code/demo1
 ```
 
 ## Creating the directories for your VuePress site, Windows version
 
 Go to your normal work area, create the working directory, and move to it. 
 
-In this case you would replace `%HOMEDIR%/code/vue/vuepress` with wherever you choose to put your VuePress files. This site’s directory is creatively called `demo1`. It's also good to create subdirectories
+In this case you would replace `%HOMEDIR%/code/` with wherever you choose to put your VuePress files. This site’s directory is creatively called `demo1`. It's also good to create subdirectories
 for image and style sheet assets.
 
 * Create the working directory and a subdirectory under it named `.vuepress` (don't forget that it starts with the period character). You can create them all at once like this:
@@ -104,15 +104,15 @@ for image and style sheet assets.
 ```batch
 :: Create full directory path, including the
 :: necessary directory .vuepress
-> md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1\.vuepress
+> md %HOMEDRIVE%%HOMEPATH%\code\demo1\.vuepress
 ```
 
 * And directories for assets such as images and style sheets. They can go anywhere; Vuepress imposes no convention for directories.
 
 ```batch
 :: Create directories for images and CSS.
-> md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1\assets\img
-> md %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1\assets\css
+> md %HOMEDRIVE%%HOMEPATH%\code\demo1\assets\img
+> md %HOMEDRIVE%%HOMEPATH%\code\demo1\assets\css
 ```
 
 ::: tip
@@ -123,7 +123,7 @@ VuePress sites other than the tiniest demos require it.
 
 ```batch
 :: Make it the working directory.
-> cd %HOMEDRIVE%%HOMEPATH%\code\vue\vuepress\demo1
+> cd %HOMEDRIVE%%HOMEPATH%\code\demo1
 ```
 
 ## Creating a minimal home page
