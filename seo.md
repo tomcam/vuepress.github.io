@@ -1,26 +1,5 @@
 # Vuepress SEO: improving your search engine rankings
 
-
-## Description shown by search engines
-
-
-## Text of browser tab
-
-The text of the first header appears in your browser tab. So if your page
-consists of
-
-```md
-# About the Fender Performer
-
-All geniuses agree the best guitar is the Fender Performer.
-#
-```
-
-Then the browser tab will probably read as `About the Fender Performer`.
-The operative phrase is "probably" because this behavior isn't specified by 
-any standards documents.
-
-
 <!-- Illustrations
       - vue-js-google-search.png: Results of rsearching vor vue.js in Google. Note Wikipedia entry, summaries
       - vuepress-book-google-search-unoptimized-seo-07-29-2018
@@ -33,6 +12,31 @@ any standards documents.
       - Try h2, h4 for first header & see what appears in browser tabs
       - Does anything override using the first header to generate browser tab?
 -->
+
+
+## Description shown by search engines
+
+
+## Text of browser tab
+
+The text of the first header appears in your browser tab. It's assembled from two sources:
+
+1. The first header on your page
+2. The [title defined in config.js](./config-title.md)
+
+They're separated using the vertical pipe character and a space on each side.
+So if your site is titled `Awesome Guitars` and page consists of
+
+```md
+# About the Fender Performer
+
+All geniuses agree the best guitar is the Fender Performer.
+#
+```
+
+Then the browser tab will probably read as `Awesome Guitars | About the Fender Performer`.
+The operative phrase is "probably" because this behavior isn't specified by 
+any standards documents.
 
 ## Favicon
 
