@@ -39,21 +39,90 @@ the text `About the Fender Performer`.
 That's overridden by the YAML `title` attribute.
 Instead, it would contain the text `World's best guitar`.
 
-## Description meta-tag
+## description meta-tag
 
 Search engines normally show the `description` tag in [search results](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Active_learning_The_description's_use_in_search_engines).
 
+To define a meta-tag in YAML front matter you need to precede it with
+1. A line consisting solely of the term `meta:`, immediately followed
+2. A line starting with exactly 2 spaces, then the term `name:`
+3. The meta-tag itself (`description` in this example)
+4. A line starting with exactly two spaces, then the term `contents:`, and finally what you want in meta-tag 
+(`lilypad lead sheet tutorial`) in this example
+
+Here's what the complete meta-tag looks like as YAML front matter:
+
 ```markdown
 ---
-description: lilypad lead sheet tutorial
+meta:
+  - name: description
+  - contents: lilypad lead sheet tutorial
 ---
 # Tutorial: How to write a lead sheet using Lilypad
 
 Let's write a complete lead sheet.
 ```
 
-As you can see, the best thing to put in the description is what people are most likely to 
-use when writing a search engine query.
+### Including multiple meta-tags
+
+You can include more than one meta-tag by repeating the `name` and `contents` elements. For example:
+
+```markdown
+---
+meta:
+  - name: description
+  - contents: lilypad lead sheet tutorial
+  - name: keywords
+  - contents: lilypad notation editor, lead sheet, music notation software
+---
+
+## keywords meta-tag
+
+Search engines may sometimes use `keywords` meta tag to assist in determining
+what to search for.
+
+To define a meta-tag in YAML front matter you need to precede it with
+1. A line consisting solely of the term `meta:`, immediately followed
+2. A line starting with exactly 2 spaces, then the term `name:`
+3. The meta-tag itself (`description` in this example)
+4. A line starting with exactly two spaces, then the term `contents:`, and finally what you want in meta-tag 
+(`lilypad notation editor, lead sheets, music notation software`) in this example
+
+Here's what the complete meta-tag looks like as YAML front matter:
+
+```markdown
+---
+meta:
+  - name: keywords
+  - contents: lilypad notation editor, lead sheet, music notation software
+---
+# Tutorial: How to write a lead sheet using Lilypad
+
+Let's write a complete lead sheet.
+```
+
+The difference between this and the [description](description-meta-tag) 
+is that keywords let people search for multiple terms that may or
+may not appear on this partiular page.
+
+::: tip
+Search engines supposedly don't use the `keyword` meta-tag anymore due to its use
+as a keyword spamming tool, but
+the truth is they don't publish their search algorithms.
+:::
+
+### Including multiple meta-tags
+
+You can include more than one meta-tag by repeating the `name` and `contents` elements. For example:
+
+```markdown
+---
+meta:
+  - name: description
+  - contents: lilypad lead sheet tutorial
+  - name: keywords
+  - contents: lilypad notation editor, lead sheet, music notation software
+---
 
 #### References
 
