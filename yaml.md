@@ -15,7 +15,7 @@ Because it precedes the page content is is sometimes referred to as [front matte
 
 #### References
 
-* Official VuePress [Front matter](https://vuepress.vuejs.org/guide/markdown.html#front-matter) documentaton
+* Official VuePress [front matter](https://vuepress.vuejs.org/guide/markdown.html#front-matter) documentaton
 * Official Jekyll [front matter](https://jekyllrb.com/docs/frontmatter/) documenation
 * [YAML](http://yaml.org/) standard
 
