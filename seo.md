@@ -20,13 +20,12 @@ the official VuePress documentaton
 
 ## Description shown by search engines
 
-
 ## Page title (text of browser tab)
 
 The text of the first header appears in your browser tab. It's assembled from two sources:
 
 1. The first header on your page
-2. The [title defined in config.js](./config-title.md)
+2. The [site title defined in config.js](./config-title.md)
 
 They're separated using the vertical pipe character and a space on each side.
 So if your site is titled `Awesome Guitars` and page consists of
@@ -42,9 +41,9 @@ Then the browser tab will probably read as `Awesome Guitars | About the Fender P
 The operative phrase is "probably" because this behavior isn't specified by 
 any standards documents.
 
-### When there's no title defined
+### When there's no site title defined
 
-If you haven't created a title in [config.js](./config-title.md) 
+If you haven't created a site title in [config.js](./config-title.md) 
 the title is taken from the first header. 
 
 ## Favicon
