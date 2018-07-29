@@ -75,7 +75,7 @@ meta:
   - name: keywords
   - contents: lilypad notation editor, lead sheet, music notation software
 ---
-
+```
 ## keywords meta-tag
 
 Search engines may sometimes use `keywords` meta tag to assist in determining
@@ -123,6 +123,7 @@ meta:
   - name: keywords
   - contents: lilypad notation editor, lead sheet, music notation software
 ---
+```
 
 #### References
 
