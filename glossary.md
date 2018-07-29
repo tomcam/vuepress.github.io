@@ -3,13 +3,36 @@
 
 # H1, H2, H3, H4, H5, H6
 
-# headers
+The terms H1, H2, H3, H4, H5, H6 (upper or lower case)
+all refer to [headers](#header). Sometimes but not always
+they refer to the HTML version of the header, but in this
+document it simply refers to their semantici importance.
+And H1 header is more important than an H3, which is
+more important than an H6. 
+
+# header
 
 A header is a headline in the document. The lower the number, the
 more important the header. They have semantic meaning. Your audience, 
 search engines, and screen readers are meant assign the most importance
 to an H1, less to an H2, and so on. HTML only recognizes levels 1 to 6.
-It's good writing practice to assign importance only to levels 1-3. 
+It's good writing practice to assign importance only to levels 1-3.
+
+Headers are represented in Markdown like this:
+
+```markdown
+# This is an H1, It's most important.
+
+Normal body text.
+
+## This is an H2. It's less important.
+
+More body text.
+
+### An H3 is about as low as you should go
+
+Readers only absorb about 3 levels of importance.
+```
 
 See also [H1, H2, H3, H4, H5, H6](#h1-h2-h3-h4-h5-h6).
 
