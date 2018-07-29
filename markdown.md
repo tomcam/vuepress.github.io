@@ -1,5 +1,25 @@
 # Markdown in VuePress: a visual guide
 
+This section is barely even started!
+
+## Notes to yourself: using HTML comments inside Markdown
+
+Markdown actually passes raw HTML through its preprocessor. 
+That means you can write notes to yourself in the markdown that won't
+appear in the final output using HTML comments. For example,
+your readers will see the obviously true text `All smart guitarists love the Fender Performer`
+but they won't see the highly unreasonable `Really?` in the comments.
+
+```markdown
+# hello, world.
+
+All smart guitarists love the Fender Performer.
+
+<!-- Really? -->
+
+```
+
+
 ## Code listings in Markdown files
 
 If you're writing technical documentation you may want a way to delineate blocks of 
