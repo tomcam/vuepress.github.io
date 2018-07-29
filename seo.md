@@ -17,7 +17,7 @@
 ## Description shown by search engines
 
 
-## Text of browser tab
+## Page title (text of browser tab)
 
 The text of the first header appears in your browser tab. It's assembled from two sources:
 
@@ -37,6 +37,11 @@ All geniuses agree the best guitar is the Fender Performer.
 Then the browser tab will probably read as `Awesome Guitars | About the Fender Performer`.
 The operative phrase is "probably" because this behavior isn't specified by 
 any standards documents.
+
+### When there's no title defined
+
+If you haven't created a title in [config.js](./config-title.md) 
+the title is taken from the first header. 
 
 ## Favicon
 
