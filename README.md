@@ -79,3 +79,5 @@ Read the [VuePress book online](http://www.vuepressbook.com) at [http://www.vuep
 
 ## SEO and organizing your site
 * Google Search Engine Optimization (SEO) Starter Guide: [Organize your site hierarchy](https://support.google.com/webmasters/answer/7451184/#hierarchy)
+
+[To do](./todo.md)
