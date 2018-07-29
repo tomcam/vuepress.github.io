@@ -42,6 +42,8 @@ Instead, it would contain the text `World's best guitar`.
 ## Description meta-tag
 
 Search engines normally show the `description` tag in [search results](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Active_learning_The_description's_use_in_search_engines).
+
+```markdown
 ---
 description: lilypad lead sheet tutorial
 ---
@@ -52,9 +54,6 @@ Let's write a complete lead sheet.
 
 As you can see, the best thing to put in the description is what people are most likely to 
 use when writing a search engine query.
-
-
-
 
 #### References
 
