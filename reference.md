@@ -2,9 +2,12 @@
 
 ## VuePress overview
 * [VuePress Guide](https://vuepress.vuejs.org/guide/)
+* [VuePress source code](https://github.com/vuejs/vuepress)
 * [GitHub Issues](https://github.com/vuejs/vuepress/issues) Looking at closed issues from time to time helps you understand things that haven't made it into the official documentation
 * [Source code for Markdown extensions supported by the default theme](https://github.com/vuejs/vuepress/blob/master/lib/markdown/index.js)
 * [Vue.js forum on Spectrum.chat](https://spectrum.chat/vue-js) covers both VuePress and Vue issues
+* Determining what version of VuePress you're using: It's just a Node.js package, so at the operating system command line, enter `npm list vuepress`
+* Update to the latest version of VuePress: At the operating system command prompt, enter `npm update -g vuepress`
 
 ## Default theme source code
 * [Default theme](https://github.com/vuejs/vuepress/tree/master/lib/default-theme)
@@ -33,6 +36,9 @@ extensions
 *  [YAML official site](http://yaml.org/)
 *  [Darvid's YAML Primer](https://github.com/darvid/trine/wiki/YAML-Primer)
 *  [Robot Has Not Heard YAML Tutorial](https://rhnh.net/2011/01/31/yaml-tutorial/)
+
+## Articles
+* [VuePress in all its glory](https://blog.logrocket.com/vuepress-in-all-its-glory-2f682e4f70c0)
 
 ## Tutorials
 *  [Zero to Deploy: Build a Documentation System with VuePress](https://scotch.io/tutorials/zero-to-deploy-build-a-documentation-system-with-vue-and-vuepress)

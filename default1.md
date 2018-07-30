@@ -9,14 +9,14 @@ restaurant named Springfield Dim Sum.
 After you've installed [Node.js](https://nodejs.org) and [VuePress](https://vuepress.vuejs.org/guide/getting-started.html)
 the typical workflow for creating a site is:
 
- Create a working directory and change to it
+* Create a working directory and change to it
 * Write markup files (text files with names ending in `.md` following a simple formatting convention
 called [markdown](https://en.wikipedia.org/wiki/Markdown)), with the home page always named `README.md`,
 and save them in the working directory
 * Open a terminal window and run `vuepress dev` on the command line. This generates a website from
 your VuePress source files, which include at a minimum `README.md`, and runs a webserver on your computer
 * Open a browser window to [http://localhost:8080/](http://localhost:8080/) to see the live site
-* Make changes to your markup files or create new ones. VuePress sees they've been created and 
+* Make changes to your markdown files or create new ones. VuePress sees they've been created and 
 automatically generates new output each time you save a file
 
 ## Opening a terminal
