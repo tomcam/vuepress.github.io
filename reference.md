@@ -34,6 +34,9 @@ extensions
 *  [Darvid's YAML Primer](https://github.com/darvid/trine/wiki/YAML-Primer)
 *  [Robot Has Not Heard YAML Tutorial](https://rhnh.net/2011/01/31/yaml-tutorial/)
 
+## Articles
+* [VuePress in all its glory](https://blog.logrocket.com/vuepress-in-all-its-glory-2f682e4f70c0)
+
 ## Tutorials
 *  [Zero to Deploy: Build a Documentation System with VuePress](https://scotch.io/tutorials/zero-to-deploy-build-a-documentation-system-with-vue-and-vuepress)
 
