@@ -1,1 +1,84 @@
 
+# VuePress Book
+
+Read the [VuePress book online](http://vuepressbook.com) at https://www.vuepressbook.com or on [GitHub](https://github.com/tomcam/vuepress.github.io) at https://github.com/tomcam/vuepress.github.io
+
+## Creating a website with the default VuePress theme
+* [Creating your home page](/default1.md)
+* [Creating the directories for your new site](/default1.md#creating-the-directories-for-your-vuepress-site.md)
+* [Adding YAML front matter to a Markdown page](/default2.md)
+  - [Adding hero text to the home page](/default3.md)
+  - [Adding a hero image to the home page](/default4.md)
+  - [Adding "features" markup to the home page](/default5.md)
+  - [Adding a "tagline" YAML markup to the home page](/default6.md)
+  - [Adding an action link to the home page with YAML](/default7.md)  
+* [Config.js: Sitewide configuration for VuePress sites](/config1.md#configjs-sitewide-configuration-for-vuepress-sites)
+  - [The minimal VuePress config.js file](/config1.md)
+  - [Adding a title, hamburger menu, and search to your site](/config-title.md)
+  - [Adding a description to your site](/config-description.md)
+
+## Creating a simple markdown page
+* [Creating a simple markdown page](/page1.md)
+  - [Adding an image](/page1.md#adding-an-image)
+
+## Overriding the default theme's style sheet
+* [Create the file /.vuepress/override.styl](./style-overriding-default.md)
+
+## Deploying a VuePress site to Netlify
+* [Download and install git](./netlify.md#download-git)
+  - [Create a GitHub repository](./netlify.md#create-a-github-repository)
+  - [One time only: configure Git if necessary](./netlify.md#one-time-only-configure-git-if-necessary)
+* [Create a minimal VuePress site](./netlify.md#create-a-minimal-vuepress-site)
+* [Create a repository for your site](./netlify.md#create-a-repository-for-your-site)
+  - [Add the README.md file](./netlify.md#add-the-readmemd-file)
+  - [Commit the README.md file](./netlify.md#commit-the-readmemd-file)
+  - [Push to GitHub](./netlify.md#push-to-github)
+* [Make your project a Node module](./netlify.md#make-your-project-a-node-module)
+  - [Update package.json to reflect VuePress usage](./netlify.md#update-packagejson-to-reflect-vuepress-usage)
+* [Add package.json to the repository](./netlify.md#add-packagejson-to-the-repository)
+* [Create and deploy your site from Netlify](./netlify.md#create-and-deploy-your-site-from-netlify)
+
+## VuePress Cheatsheet: Quick guide to creating an entire site
+* [VuePress cheatsheet](/cheatsheet.md)
+
+
+## Creating custom Vuepress themes
+
+1. [Creating a minimal custom theme](./custom1.md) (Download custom Vuepress theme [starter1](https://github.com/tomcam/vuepress-theme-starter1))
+2. [Add styling](custom2.md) to your Vuepress theme (Download custom Vuepress theme [starter2](https://github.com/tomcam/vuepress-theme-starter2))
+
+# Reference
+
+## Technical docs
+
+* VuePress [Guide](https://vuepress.vuejs.org/guide/)
+  - [GitHub Issues](https://github.com/vuejs/vuepress/issues)
+* [Default theme](https://github.com/vuejs/vuepress/tree/master/lib/default-theme)
+  - [Layout.vue source](https://github.com/vuejs/vuepress/blob/master/lib/default-theme/Layout.vue)
+  - [Home.vue source](https://github.com/vuejs/vuepress/blob/master/lib/default-theme/Home.vue)
+  - [YAML front matter](https://vuepress.vuejs.org/default-theme-config/#homepage) for home page
+* [Custom themes](https://vuepress.vuejs.org/guide/custom-themes.html)
+* The "[simplest theme](https://vuepress.vuejs.org/guide/custom-themes.html#content-outlet)"
+* [Custom layout for specific pages](https://vuepress.vuejs.org/default-theme-config/#custom-layout-for-specific-pages)
+* Location for custom themes: `usr/local/lib/node_modules`
+* Location of default theme files on MacOS is: `/usr/local/lib/node_modules/vuepress/lib/default-theme/`
+* [Vuepress website](https://github.com/vuejs/vuepress/tree/master/docs) source
+* [Stylus: Expressive, Dynamic, Robust CSS](http://stylus-lang.com/)
+
+### Markdown
+* [VuePress markdown](https://vuepress.vuejs.org/guide/markdown.html)
+* [Original Markdown Description](https://daringfireball.net/projects/markdown/syntax) by Jon Gruber
+* Markdown extensions supported by the default theme are [here](https://github.com/vuejs/vuepress/blob/master/lib/markdown/index.js)
+
+### YAML
+* [YAML official site](http://yaml.org/)
+* [Darvid's YAML Primer](https://github.com/darvid/trine/wiki/YAML-Primer)
+* [Robot Has No Heard YAML Tutorial](https://rhnh.net/2011/01/31/yaml-tutorial/)
+
+## Tutorials
+* [Zero to Deploy: Build a Documentation System with VuePress](https://scotch.io/tutorials/zero-to-deploy-build-a-documentation-system-with-vue-and-vuepress)
+
+## SEO and organizing your site
+* Google Search Engine Optimization (SEO) Starter Guide: [Organize your site hierarchy](https://support.google.com/webmasters/answer/7451184/#hierarchy)
+
+[To do](./todo.md)
