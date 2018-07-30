@@ -16,7 +16,7 @@ and save them in the working directory
 * Open a terminal window and run `vuepress dev` on the command line. This generates a website from
 your VuePress source files, which include at a minimum `README.md`, and runs a webserver on your computer
 * Open a browser window to [http://localhost:8080/](http://localhost:8080/) to see the live site
-* Make changes to your markup files or create new ones. VuePress sees they've been created and 
+* Make changes to your markdown files or create new ones. VuePress sees they've been created and 
 automatically generates new output each time you save a file
 
 ## Opening a terminal
