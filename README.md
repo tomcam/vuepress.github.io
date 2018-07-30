@@ -10,7 +10,7 @@ features:
 - details: You don't need prior knowledge of static site generatorrs like Jekyll or Ghost
 - title: Nothing left out
 - details: Clear, illustrated, step-by-step examples take you through the process of building a complete site. Nothing's left out.
-- Tutorial and theory!
+- title: Tutorial and theory!
 - details: Even tutorials can be used later for reference because each step is explained as you go through
 ---
 
