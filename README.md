@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Free VuePress course
-heroImage: /592x280.png
+heroImage: /hero-592x280.png
 actionText: Start the tutorial! →
 actionLink: ./default1.md
 ---
