@@ -16,8 +16,10 @@
 * [Custom themes](https://vuepress.vuejs.org/guide/custom-themes.html)
 *  The "[simplest theme](https://vuepress.vuejs.org/guide/custom-themes.html#content-outlet)"
 *  [Custom layout for specific pages](https://vuepress.vuejs.org/default-theme-config/#custom-layout-for-specific-pages)
-  - Location for custom themes: `usr/local/lib/node_modules`
-  - Location of default theme files on MacOS is: `/usr/local/lib/node_modules/vuepress/lib/default-theme/`
+  - Location for custom themes: 
+    - MacOS: `usr/local/lib/node_modules`
+  - Location of default theme files
+    - MacOS: `/usr/local/lib/node_modules/vuepress/lib/default-theme/`
 *  [Vuepress website](https://github.com/vuejs/vuepress/tree/master/docs) source
 *  [Stylus: Expressive, Dynamic, Robust CSS](http://stylus-lang.com/)
 
