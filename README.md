@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Free VuePress course
-heroImage: ./assets/img/vuepress-book-cover.png
+heroImage: ./assets/img/vuepress-book-cover-800x800.png
 actionText: Start the tutorial! →
 actionLink: ./default1.md
 ---
