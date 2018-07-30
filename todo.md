@@ -27,6 +27,12 @@ the official VuePress documentaton
 
 https://github.com/vuejs/vuepress/blob/master/docs/.vuepress/config.js
 
+## Setting title in config.js
+
+https://github.com/vuejs/vuepress/blob/master/docs/.vuepress/config.js
+
+See if that's only for the default theme. I assume it is.
+
 ## Config-title.md
 
 [config-title.md](config-title.md) should be reorganized and may be broken. Move the action above the
