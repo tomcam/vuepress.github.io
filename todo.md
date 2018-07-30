@@ -23,6 +23,9 @@ Use H4 for a section called Reference within a page:
 See See the [Front matter](https://vuepress.vuejs.org/guide/markdown.html#front-matter) in
 the official VuePress documentaton
 ````
+## Cover these items
+
+https://github.com/vuejs/vuepress/blob/master/docs/.vuepress/config.js
 
 ## Config-title.md
 
