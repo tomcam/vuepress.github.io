@@ -1,8 +1,9 @@
 # Style sheets
 
-## Overriding the global style sheet on a per-page pbases
+## Overriding the global style sheet on a per-page basis
 
-You can create a style sheet that applies to only one page by doing the following.
+You can create a styles that apply to only one page by doing the following.
+Here's an example of making the body text red for one particular page.
 
 * Add the style to `.vuepress/override.styl`. For example:
 
