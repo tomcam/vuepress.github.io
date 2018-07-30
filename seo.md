@@ -21,7 +21,7 @@ the official VuePress documentaton
 ## Description shown by search engines
 
 Search engines like to find an HTML `description` meta-tag on each page, and they will normally
-use it in search results. You can add it to a page using [YAML](./yamld.md#description-meta-tag).
+use it in search results. You can add it to a page using [YAML](./yaml.md#description-meta-tag).
 
 ## Page title (text of browser tab)
 
