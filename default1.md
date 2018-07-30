@@ -9,7 +9,7 @@ restaurant named Springfield Dim Sum.
 After you've installed [Node.js](https://nodejs.org) and [VuePress](https://vuepress.vuejs.org/guide/getting-started.html)
 the typical workflow for creating a site is:
 
- Create a working directory and change to it
+* Create a working directory and change to it
 * Write markup files (text files with names ending in `.md` following a simple formatting convention
 called [markdown](https://en.wikipedia.org/wiki/Markdown)), with the home page always named `README.md`,
 and save them in the working directory
