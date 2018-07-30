@@ -9,7 +9,8 @@ You can create a style sheet that applies to only one page by doing the followin
 ###### file .vuepress/override.styl
 
 ```css
-theme-container.badidea { color: red; }
+/* Make all the body text red. */
+.theme-container.badidea { color: red; }
 ```
 
 * Add `pageClass: ` to the [YAML front mattter](./yaml.md) for that page.
