@@ -32,6 +32,7 @@ module.exports = {
 				]
 			},
 			'/feedback.md',
+			'/contact.md',
 			'/reference.md',
 			'/cheatsheet.md',
 			'/credits.md',
