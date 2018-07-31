@@ -69,8 +69,9 @@ for image and style sheet assets.
 
 ```bash
 # Create full directory path, including the
-# necessary hidden directory .vuepress
-$ mkdir -p ~/code/demo1/.vuepress
+# necessary hidden directory .vuepress and
+# a directory for public assets
+$ mkdir -p ~/code/demo1/.vuepress/public
 ```
 
 * And directories for assets such as images and style sheets. They can go anywhere; Vuepress imposes no convention for directories.
@@ -103,8 +104,9 @@ for image and style sheet assets.
 
 ```batch
 :: Create full directory path, including the
-:: necessary directory .vuepress
-> md %HOMEDRIVE%%HOMEPATH%\code\demo1\.vuepress
+:: necessary directory .vuepress and
+:: a directory for public assets
+> md %HOMEDRIVE%%HOMEPATH%\code\demo1\.vuepress\public
 ```
 
 * And directories for assets such as images and style sheets. They can go anywhere; Vuepress imposes no convention for directories.
