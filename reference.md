@@ -39,6 +39,7 @@ extensions
 
 ## Articles
 * [VuePress in all its glory](https://blog.logrocket.com/vuepress-in-all-its-glory-2f682e4f70c0)
+* [How to create a custom VuePress theme with Vuetify](https://medium.com/vue-mastery/how-to-create-a-custom-vuepress-theme-with-vuetify-651b7d7e5092)
 
 ## Tutorials
 *  [Zero to Deploy: Build a Documentation System with VuePress](https://scotch.io/tutorials/zero-to-deploy-build-a-documentation-system-with-vue-and-vuepress)
