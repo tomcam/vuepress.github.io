@@ -33,6 +33,10 @@ https://github.com/vuejs/vuepress/blob/master/docs/.vuepress/config.js
 
 See if that's only for the default theme. I assume it is.
 
+## default/hero-text.md
+
+Image link to default-herotext.png isn't working.
+
 ## Config-title.md
 
 [config-title.md](config-title.md) should be reorganized and may be broken. Move the action above the
