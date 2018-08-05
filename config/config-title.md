@@ -1,15 +1,16 @@
-# Adding a site title, hamburger menu, and search to your site
+# Adding a site title
 
 The simplest addition to [config.js](./config1.md) is the `title` attribute. 
-This gives your site a whole list of features: search, a consistent title across
-all the pages in your site, and a hamburger menu that automatically uses
-the titles from your directory of markdown files to create a table of contents.
+You do it by adding a [YAML](/yaml/adding-yaml.md) `title` attribute to the
+home page.
 
 First, let's take a look at a simple site with no `config.js` at all:
 
-![Screen shot of home page without title from config.js](./assets/img/config-title-notitle.png)
+![Screen shot of home page without title from config.js](/assets/img/config-title-notitle.png)
 
-The README.md for such a site would look like this:
+<!-- The README.md for such a site would insert [YAML front matter](/yaml/adding-yaml.md) like this:
+-->
+The README.md for such a site would insert [YAML front matter](/yaml/adding-yaml.md) like this:
 
 ###### file README.md
 ```yaml
@@ -37,58 +38,14 @@ module.exports = {
 
 In a moment you'll see a change:
 
-![Screen shot of home page with title from config.js](./assets/img/config-title.png)
+![Screen shot of home page with title from config.js](/assets/img/config-title.png)
 
 ## What the site title does
 
-The site title is added to all pages and, in the default theme, is added to the navbar.
+The site title is added to all pages and, in the default theme, is added to the top navbar.
 
 #### Reference
 
 See the VuePress [title](https://vuepress.vuejs.org/config/#title) documenation.
-
-## Adding site title adds search to every page
-
-A new header appears on every page, consisting of a hamburger menu to the left, the title "Dim Sum!", and retractable 
-search feature.
-
-Explore these new features. For example, click the search icon and type something, 
-for example, `L` for lunch.
-
-![Screen shot of home page with the user typing in "L"](./assets/img/config-title-start-search.png)
-
-For the purposes of this demo, we created these minimal files and placed
-them in the project's root directory:
-
-###### file lunch.md
-
-```
-# Lunch menu
-```
-
-###### file dinner.md
-
-```
-# Dinner menu
-```
-
-## Adding title automates navigation
-
-* Choose the `Lunch menu` item to see that page:
-
-![Screen shot of minimal "lunch.md" page](./assets/img/config-title-lunch.png)
-
-Note how the VuePress default them has built links to the dinner menu and the home page.
-
-* Choose the `Dinner menu` item.
-
-![Screen shot of minimal "dinner.md" page](./assets/img/config-title-dinner.png)
-
-Now you see links to the the home page and the lunch menu.
-
-### Links are named after the first header in the markup file
-
-You can see that VuePress automatically titled pages by reading the first header from each file. It orders
-them alphabetically, by file name.
 
 
