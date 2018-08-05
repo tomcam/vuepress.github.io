@@ -40,33 +40,6 @@ $ cd /usr/local/lib/node_modules/vuepress-theme-starter1
 </template> 
 ```
 
-<!--
-This is the minimal version that was accepted--but no output appeared.
-
-```
-<template>
-  <div class="theme-container">
-    <h1>This is Layout.vue</h1>
-    <Content/>
-    <h1>This came under the content tag</h1>
-  </div>
-</template>
-
-<script>
-import Vue from 'vue'
-export default {
-  components: { Home, Page, Sidebar, Navbar },
-  data () {
-    return {
-      isSidebarOpen: false
-    }
-  }
-}
-
-</script>
-```
--->
-
 ## Create a VuePress site
 
 Go to your normal work area and generate a Vuepress site. In this case
@@ -112,7 +85,7 @@ $ vuepress dev
 ```
 And visit your site:
 
-![Screen shot of the minimal VuePress theme named starter1 ](./assets/img/starter1-vue-theme.png)
+![Screen shot of the minimal VuePress theme named starter1 ](/assets/img/starter1-vue-theme.png)
 
 You can find a repository at https://github.com/tomcam/vuepress-theme-starter1.
 
