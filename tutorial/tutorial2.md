@@ -68,7 +68,7 @@ Normal text isn't indexed by VuePress's internal search.
 
 And the result is pretty much what you'd expect:
 
-![Screenshot of header styles H1 through H6](../assets/img/markdown-headers-h1-h6.png)
+![Screenshot of header styles H1 through H6](/assets/img/markdown-headers-h1-h6.png)
 
 ## Creating links
 
