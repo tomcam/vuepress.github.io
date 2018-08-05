@@ -79,6 +79,6 @@ on all pages if defined.
 
 The site title appears on every page if you've configured it. 
 The Vuepress default theme appends it to the page name in browser titles
-if it's been [defined using config.js](./config-title.md).
+if it's been [defined using config.js](/config-title.md).
 The site title is different from the [page title](#page-title).
 
