@@ -16,13 +16,14 @@ and save them in the working directory
 * Open a terminal window and run `vuepress dev` on the command line. This generates a website from
 your VuePress source files, which include at a minimum `README.md`, and runs a webserver on your computer
 * Open a browser window to [http://localhost:8080/](http://localhost:8080/) to see the live site
-* Make changes to your markdown files or create new ones. VuePress sees they've been created and 
+* Make changes to your markdown files or create new ones. 
+VuePress sees they've been created and 
 automatically generates new output each time you save a file
 
-## Opening a terminal
+### Opening a terminal
 
-You'll need to drop into your operating system's command line to use VuePress. First open
-a terminal.
+You'll need to drop into your operating system's command line to use VuePress. 
+First open a terminal.
 
 ### Opening a terminal on MacOS
 
@@ -31,7 +32,7 @@ The quickest way to find the terminal program on MacOS is this way:
 * Choose the Spotlight icon, normally at the top of the screen
 * Search for the word `terminal` and you'll see something like this in the results. Highlight the Terminal icon:
 
-![Screen shot of finding Terminal using Spotlight](./assets/img/macos-spotlight-terminal.png)
+![Screen shot of finding Terminal using Spotlight](../assets/img/macos-spotlight-terminal.png)
 
 ### Creating a Terminal shortcut on the MacOS dock (one time only)
 
@@ -40,7 +41,7 @@ do this once.
 
 * Under `Top Hits`, Drag the Terminal icon to the bottom of your screen, into the Dock.
 
-![Screen shot of Terminal being dragged from Spotlight to Dock](./assets/img/macos-dock-dragging-terminal.png)
+![Screen shot of Terminal being dragged from Spotlight to Dock](../assets/img/macos-dock-dragging-terminal.png)
 
 Now you'll be able to start the terminal much faster next time.
 
@@ -50,15 +51,15 @@ The quickest way to start the Windows command prompt is this:
 
 * Press the Windows and R keys at the same time to bring up the Run dialog.
 
-![Screen Windows Run dialog](./assets/img/screenshot-windows-run-dialog.png)
+![Screen Windows Run dialog](../assets/img/screenshot-windows-run-dialog.png)
 
 * Type `cmd` and press Enter.
 
 The command prompt appears.
 
-![Screen Windows command prompt](./assets/img/cmd-prompt.png)
+![Screen Windows command prompt](../assets/img/cmd-prompt.png)
 
-## Creating the directories for your VuePress site, MacOS version
+### Creating the directories for your VuePress site, MacOS version
 
 Go to your normal work area, create the working directory, and move to it. 
 
@@ -93,7 +94,7 @@ VuePress sites other than the tiniest demos require it.
 $ cd ~/code/demo1
 ```
 
-## Creating the directories for your VuePress site, Windows version
+### Creating the directories for your VuePress site, Windows version
 
 Go to your normal work area, create the working directory, and move to it. 
 
@@ -130,22 +131,18 @@ VuePress sites other than the tiniest demos require it.
 
 ## Creating a minimal home page
 
-A VuePress site is a directory containing at least a file named README.md in Markdown form with at *least
-one header.* Open your favorite text editor (not Apple Pages or Microsoft, because they add
-formatting that won't convert properly) and create a file named `README.md` with the following contents:
+A VuePress site is a directory containing at least a file named 'README.md' in Markdown form with at *least one header.* 
+Open your favorite text editor (not Apple Pages or Microsoft, because they add
+formatting that won't convert properly).
+
+* Create a text file named `README.md` with the following contents:
 
 ```
-## Location and Directions
+# Wecome to Example.com 
+
+We hope you love this tiny tiny site.
 ```
 
-<!-- tip TIP FOR DEFAULT THEME USERS -->
-
-::: tip
-If you're using the VuePress default theme to create your home page (and you are in this example), 
-you should start
-with a level 2 header (`##`, as shown above). That's because the level 1 header
-is provided by the `heroText` YAML markup, to be explained later.
-:::
 
 ## Running vuepress dev
 
@@ -166,13 +163,13 @@ If all goes well you'll see output like this:
 Running `vuepress dev` creates a sort of temporary copy of the site on the fly. It converts the Markdown files (such as README.md) to HTML, so, for example, `## Location and directions` gets converted to HTML that looks like this:
 
 ```html
-<h2 id="location-and-directions">Location and Directions</h2> 
+<h1 id="welome-to-example-com">Welcome to Example.com</h1> 
 ```
 
-It doesn't generate permanent HTML or Javascript files (that's why you'd run `vuepress build`) but it builds a live version of the site. You can make changes
-to your Markdown files and the pages be updated dynamically the moment you save.
+While `vuepress dev` is running, you can make changes to your Markdown files 
+and the changes will be reflected dynamically the moment you save.
 
-## Opening a browser window
+## Opening a browser window to localhost:8080
 
 Note the web address, which looks something like `http://localhost:8080/`. 
 
@@ -180,31 +177,69 @@ Note the web address, which looks something like `http://localhost:8080/`.
 
 Here's what you'll see:
 
-![Screen shot of first default theme home page with h2](/assets/img/default1-h2.png)
+![Screen shot of first default theme home page](../assets/img/default1-h1.png)
 
 
 ## Taking a look at special VuePress default theme features
 
-Although this is nominally a bare theme, you can already see it has a few advantages over a normal, blank HTML page. 
-It has an attractive set of defaults for font, margins, and so on, and these will be uniform over all reasonably 
-modern browsers. And there's something else that works great for technical documentation.
+Although this is nominally a bare theme, 
+you can already see it has a few advantages over a normal, blank HTML page. 
+It has an attractive set of defaults for font, margins, and so on, 
+and these will be uniform over all reasonably modern browsers. 
+And there's something else that works great for technical documentation.
 
-### Default theme feature: Markdown anchors
+### Default theme feature: Active anchor for each header
 
 Move your mouse or touch over the headline and you'll see a pound sign appear.
 
-![Screen shot of first default theme showing Markdown anchor](./assets/img/default1-anchor.png)
+![Screen shot of first default theme showing Markdown anchor](../assets/img/default1-anchor.png)
 
 That represents a link to this exact location on the page (called an anchor, corresponding to an
 anchor tag in HTML). If you right-click it and choose to copy the link from the context menu, 
-when you paste in that link it will be pasted as `http://localhost:8080/#location-and-directions`, not
-just `http://localhost:8080`.
+when you paste in that link it will be pasted as `http://localhost:8080/http://localhost:8080/index.html#welcome-to-example-com`, 
+not just `http://localhost:8080`.
 
 Any good website used for reference purposes should use descriptive anchors like this. Vuepress
-generates them automatically. If you don't like this feature, it can be disabled. More on this later.
+generates them automatically. 
 
+### Page title is named after the first header in the markup file
 
+You can see that VuePress automatically titles pages by reading the first header from each file. 
 
+## VuePress comes with powerful headder-based search
 
+Explore these new features. For example, click the search icon and type something, 
+for example, `L` for lunch.
+
+![Screen shot of home page with the user typing in "L"](/assets/img/config-title-start-search.png)
+
+For the purposes of this demo, we created these minimal files and placed
+them in the project's root directory:
+
+###### file lunch.md
+
+```
+# Lunch menu
+```
+
+###### file dinner.md
+
+```
+# Dinner menu
+```
+
+## Adding title automates navigation
+
+* Choose the `Lunch menu` item to see that page:
+
+![Screen shot of minimal "lunch.md" page](/assets/img/config-title-lunch.png)
+
+Note how the VuePress default them has built links to the dinner menu and the home page.
+
+* Choose the `Dinner menu` item.
+
+![Screen shot of minimal "dinner.md" page](/assets/img/config-title-dinner.png)
+
+Now you see links to the the home page and the lunch menu.
 
 
