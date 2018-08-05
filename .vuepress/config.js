@@ -1,42 +1,57 @@
 module.exports = {
-    title: "VuePress Tutorial",
-    description: "Free VuePress Course",
+	title: 'VuePress tutorial',
+	description: 'VuePress examples and demo code',
 	themeConfig: {
-		
 		sidebar: [
 			{
 				title: 'Tutorial',
 				children: [
-					'/default1.md', 
-					'/default2.md',
-					'/default3.md',
-					'/default4.md',
-					'/default5.md',
-					'/default6.md',
-					'/default7.md',
-					'/default8.md',
-					'/config1.md',
-					'/config-title.md',
-					'/config-description.md',
+					'/tutorial/tutorial1',
+					'/tutorial/tutorial2',
+					'/tutorial/tutorial3',
+					'/tutorial/emoji',
+					'/tutorial/tutorial4',
+					'/tutorial/tutorial5',
+					'/tutorial/tutorial6',
+					'/tutorial/special'
 				]
 			},
-			'/markdown.md',
-			'/yaml.md',
-			'/style-overriding-default.md',
-			['/netlify.md', 'Deploying to Netlify'],
+			{
+				title: 'Site configuration: config.js',
+				children: [
+					'/config/config1',
+					'/config/config-title',
+					'/config/config-description',
+				]
+			},
+			{
+				title: 'Customizing the default theme',
+				children: [
+					'/default-theme/hero-text.md',
+					'/default-theme/hero-image.md',
+					'/default-theme/action-link.md',
+					'/default-theme/tagline.md',
+					'/default-theme/features.md',
+					'/default-theme/footer.md',
+				]
+			},
 			{
 				title: 'Custom themes',
 				children: [
-					'/custom1.md',
-					'/custom2.md',
+					'/custom-themes/custom1',
+					'/custom-themes/custom2',
 				]
 			},
-			'/feedback.md',
-			'/reference.md',
-			'/cheatsheet.md',
-			'/credits.md',
-			
+			'/netlify',
+			'/feedback',
+			'/reference',
+/*
+ * '/contact',
+			*/
+
+			'/'
 		]
+
 	}
 }
 
