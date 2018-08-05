@@ -6,7 +6,7 @@ home page.
 
 First, let's take a look at a simple site with no `config.js` at all:
 
-![Screen shot of home page without title from config.js](/assets/img/config-title-notitle.png)
+![Screen shot of home page without title from config.js](../assets/img/config-title-notitle.png)
 
 <!-- The README.md for such a site would insert [YAML front matter](/yaml/adding-yaml.md) like this:
 -->
@@ -38,7 +38,7 @@ module.exports = {
 
 In a moment you'll see a change:
 
-![Screen shot of home page with title from config.js](/assets/img/config-title.png)
+![Screen shot of home page with title from config.js](../assets/img/config-title.png)
 
 ## What the site title does
 
