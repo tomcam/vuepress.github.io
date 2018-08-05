@@ -45,10 +45,7 @@ module.exports = {
 			'/netlify',
 			'/feedback',
 			'/reference',
-/*
- * '/contact',
-			*/
-
+ 			'/contact',
 			'/'
 		]
 
