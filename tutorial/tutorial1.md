@@ -41,7 +41,7 @@ do this once.
 
 * Under `Top Hits`, Drag the Terminal icon to the bottom of your screen, into the Dock.
 
-![Screen shot of Terminal being dragged from Spotlight to Dock](/assets/img/macos-dock-dragging-terminal.png)
+![Screen shot of Terminal being dragged from Spotlight to Dock](../assets/img/macos-dock-dragging-terminal.png)
 
 Now you'll be able to start the terminal much faster next time.
 
@@ -51,13 +51,13 @@ The quickest way to start the Windows command prompt is this:
 
 * Press the Windows and R keys at the same time to bring up the Run dialog.
 
-![Screen Windows Run dialog](/assets/img/screenshot-windows-run-dialog.png)
+![Screen Windows Run dialog](../assets/img/screenshot-windows-run-dialog.png)
 
 * Type `cmd` and press Enter.
 
 The command prompt appears.
 
-![Screen Windows command prompt](/assets/img/cmd-prompt.png)
+![Screen Windows command prompt](../assets/img/cmd-prompt.png)
 
 ### Creating the directories for your VuePress site, MacOS version
 
@@ -177,7 +177,7 @@ Note the web address, which looks something like `http://localhost:8080/`.
 
 Here's what you'll see:
 
-![Screen shot of first default theme home page](/assets/img/default1-h1.png)
+![Screen shot of first default theme home page](../assets/img/default1-h1.png)
 
 
 ## Taking a look at special VuePress default theme features
@@ -192,7 +192,7 @@ And there's something else that works great for technical documentation.
 
 Move your mouse or touch over the headline and you'll see a pound sign appear.
 
-![Screen shot of first default theme showing Markdown anchor](/assets/img/default1-anchor.png)
+![Screen shot of first default theme showing Markdown anchor](../assets/img/default1-anchor.png)
 
 That represents a link to this exact location on the page (called an anchor, corresponding to an
 anchor tag in HTML). If you right-click it and choose to copy the link from the context menu, 
@@ -211,7 +211,7 @@ You can see that VuePress automatically titles pages by reading the first header
 Explore these new features. For example, click the search icon and type something, 
 for example, `L` for lunch.
 
-![Screen shot of home page with the user typing in "L"](/assets/img/config-title-start-search.png)
+![Screen shot of home page with the user typing in "L"](../assets/img/config-title-start-search.png)
 
 For the purposes of this demo, we created these minimal files and placed
 them in the project's root directory:
@@ -232,13 +232,13 @@ them in the project's root directory:
 
 * Choose the `Lunch menu` item to see that page:
 
-![Screen shot of minimal "lunch.md" page](/assets/img/config-title-lunch.png)
+![Screen shot of minimal "lunch.md" page](../assets/img/config-title-lunch.png)
 
 Note how the VuePress default them has built links to the dinner menu and the home page.
 
 * Choose the `Dinner menu` item.
 
-![Screen shot of minimal "dinner.md" page](/assets/img/config-title-dinner.png)
+![Screen shot of minimal "dinner.md" page](../assets/img/config-title-dinner.png)
 
 Now you see links to the the home page and the lunch menu.
 
