@@ -32,7 +32,7 @@ The quickest way to find the terminal program on MacOS is this way:
 * Choose the Spotlight icon, normally at the top of the screen
 * Search for the word `terminal` and you'll see something like this in the results. Highlight the Terminal icon:
 
-![Screen shot of finding Terminal using Spotlight](../assets/img/macos-spotlight-terminal.png)
+![Screen shot of finding Terminal using Spotlight](/assets/img/macos-spotlight-terminal.png)
 
 ### Creating a Terminal shortcut on the MacOS dock (one time only)
 
@@ -41,7 +41,7 @@ do this once.
 
 * Under `Top Hits`, Drag the Terminal icon to the bottom of your screen, into the Dock.
 
-![Screen shot of Terminal being dragged from Spotlight to Dock](../assets/img/macos-dock-dragging-terminal.png)
+![Screen shot of Terminal being dragged from Spotlight to Dock](/assets/img/macos-dock-dragging-terminal.png)
 
 Now you'll be able to start the terminal much faster next time.
 
