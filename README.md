@@ -4,7 +4,7 @@ heroText: The VuePress Book
 tagLine: Create and publish fast, feature-rich sites in minutes
 heroImage: /hero-592x280.png
 actionText: Start the tutorial! →
-actionLink: ./default1.md
+actionLink: /tutorial/tutorial1.md
 features:
 - title: Great for static site generator novices
 - details: You don't need prior knowledge of static site generatorrs like Jekyll or Ghost
