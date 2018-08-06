@@ -35,11 +35,6 @@ https://github.com/vuejs/vuepress/blob/master/docs/.vuepress/config.js
 
 See if that's only for the default theme. I assume it is.
 
-## Images that don't get the border that all img elements are supposed to have:
-
-* tutorial/tutorial2.html#special-properties-of-readme-md
-
-
 ## Markdown stuff to discuss
 
 ```
@@ -54,6 +49,9 @@ Mention https://www.markdowntutorial.com
 
 [config-title.md](config-title.md) should be reorganized and may be broken. Move the action above the
 illustrated examples. I also think it's no longer accurate.
+
+## default-theme/hero-image.md
+This fails, even though the image seems to be there: ![Screen shot of home page with hero text](/assets/img/default1-heroimage.png) 
 
 ## markdown.md
 
