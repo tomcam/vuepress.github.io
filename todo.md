@@ -55,9 +55,6 @@ Mention https://www.markdowntutorial.com
 [config-title.md](config-title.md) should be reorganized and may be broken. Move the action above the
 illustrated examples. I also think it's no longer accurate.
 
-## default-theme/hero-image.md
-This fails, even though the image seems to be there: ![Screen shot of home page with hero text](/assets/img/default1-heroimage.png) 
-
 ## markdown.md
 
 [markdown.md](./markdown.md): Add info about [escaping](https://vuepress.vuejs.org/guide/using-vue.html#escaping)
