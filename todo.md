@@ -1,7 +1,6 @@
 # To do
 
-* Create a style for H6 filename designation and for H4 references.
-* Revisit (default.md](/default.md) 
+Create a style for H6 filename designation and for H4 references.
 
 
 ## Conventions to document
