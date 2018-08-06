@@ -33,6 +33,7 @@ https://github.com/vuejs/vuepress/blob/master/docs/.vuepress/config.js
 
 https://github.com/vuejs/vuepress/blob/master/docs/.vuepress/config.js
 
+
 See if that's only for the default theme. I assume it is.
 
 ## Markdown stuff to discuss
