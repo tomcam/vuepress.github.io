@@ -3,6 +3,7 @@ module.exports = {
 	description: 'VuePress examples and demo code',
 	themeConfig: {
 		sidebar: [
+			'/introduction',
 			{
 				title: 'Tutorial',
 				children: [
