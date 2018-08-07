@@ -23,8 +23,9 @@ The file `Layout.vue` is important because it's the default template for
 all web pages. Styles you add to `Layout.vue` are accessible to
 all other web pages in your VuePress installation.
 
-For clarity VuePress preprocesses the styles you define. [Stylus](http://stylus-lang.com/), 
-the source language, resembles YAML or a simplfied version of CSS. For example, instead of
+## Vue uses Stylus (optionally)
+
+For clarity VuePress preprocesses the styles you define. [Stylus](http://stylus-lang.com/), the source language, resembles YAML or a simplfied version of CSS. For example, instead of
 changing the color of `<h1>` headers to red like this:
 
 ```css
