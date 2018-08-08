@@ -19,3 +19,7 @@ module.exports = {
   }
 }
 ```
+
+Here's an example using the previous navbar code:
+
+![Screenshot of simple VuePress nav bar](/assets/img/vuepress-nav-bar-picture.png)
