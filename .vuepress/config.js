@@ -1,6 +1,7 @@
 module.exports = {
 	title: 'VuePress tutorial',
 	description: 'VuePress examples and demo code',
+	ga: 'UA-124245419-1',
 	themeConfig: {
 		sidebar: [
 			'/introduction',
