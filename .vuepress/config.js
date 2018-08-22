@@ -1,7 +1,7 @@
 module.exports = {
 	title: 'VuePress tutorial',
 	description: 'VuePress examples and demo code',
-	ga: 'UA-124245419-1',
+	ga: 'UA-11825324-2', // 'UA-124245419-1',
 	serviceWorker: true,
 	head: [
 		['link', { rel: 'icon', href: '/hero.png' }],
