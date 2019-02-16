@@ -234,7 +234,7 @@ them in the project's root directory:
 
 ![Screen shot of minimal "lunch.md" page](../assets/img/config-title-lunch.png)
 
-Note how the VuePress default them has built links to the dinner menu and the home page.
+Note how the VuePress default theme has built links to the dinner menu and the home page.
 
 * Choose the `Dinner menu` item.
 
