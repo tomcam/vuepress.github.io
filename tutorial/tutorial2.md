@@ -78,7 +78,7 @@ visible part of a link, and the part that gets indexed by search engines). The p
 parentheses, `./contact.md` in this case, gets becomes a reference to an HTML file by the same 
 name, which would be `contact.html` in the current directory.
 
-### Linking to other web pages using Markdown
+### Linking to external web sites using Markdown
 
 The format for linking to other websites is similar to Markdown but you just
 use the website's actual URL in parentheses. For example:
