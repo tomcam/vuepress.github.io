@@ -11,7 +11,7 @@
 
 ## Default theme source code
 * [Default theme](https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/theme-default)
-* [Layout.vue source](https://github.com/vuejs/vuepress/blob/master/lib/default-theme/Layout.vue)
+* [Layout.vue source](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/theme-default/layouts/Layout.vue)
 * [Home.vue source](https://github.com/vuejs/vuepress/blob/master/lib/default-theme/Home.vue)
 * [YAML front matter](https://vuepress.vuejs.org/default-theme-config/#homepage) for home page
 
