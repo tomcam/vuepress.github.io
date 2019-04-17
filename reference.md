@@ -1,7 +1,7 @@
 # Reference
 
 ## VuePress overview
-* [VuePress Guide](https://vuepress.vuejs.org/guide/)
+* [VuePress Guide](https://vuepress.vuejs.org/guide/) and [here](https://github.com/vuejs/vuepress/tree/master/packages/docs/docs)
 * [VuePress source code](https://github.com/vuejs/vuepress)
 * [GitHub Issues](https://github.com/vuejs/vuepress/issues) Looking at closed issues from time to time helps you understand things that haven't made it into the official documentation
 * [Source code for Markdown extensions supported by the default theme](https://github.com/vuejs/vuepress/blob/master/lib/markdown/index.js)
