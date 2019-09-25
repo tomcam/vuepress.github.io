@@ -173,7 +173,7 @@ print("hello, world.")
 
 ### Languages with keyword highlighting support in VuePress
 
-VuePress gets its keyword highlighting support through the [Prism](prismjs.com) Javascript library.
+VuePress gets its keyword highlighting support through the [Prism](https://prismjs.com) Javascript library.
 
 ::: tip
 There are too many languages to make an exhaustive list here, but you can find them
