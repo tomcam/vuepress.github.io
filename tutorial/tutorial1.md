@@ -160,7 +160,7 @@ If all goes well you'll see output like this:
   [13:55:39] ✔ successfully compiled.
 ```
 
-Running `vuepress dev` creates a sort of temporary copy of the site on the fly. It converts the Markdown files (such as README.md) to HTML, so, for example, `## Location and directions` gets converted to HTML that looks like this:
+Running `vuepress dev` creates a sort of temporary copy of the site on the fly. It converts the Markdown files (such as README.md) to HTML, so, for example, `## Welcome to Example.com` gets converted to HTML that looks like this:
 
 ```html
 <h1 id="welome-to-example-com">Welcome to Example.com</h1> 
@@ -196,7 +196,7 @@ Move your mouse or touch over the headline and you'll see a pound sign appear.
 
 That represents a link to this exact location on the page (called an anchor, corresponding to an
 anchor tag in HTML). If you right-click it and choose to copy the link from the context menu, 
-when you paste in that link it will be pasted as `http://localhost:8080/http://localhost:8080/index.html#welcome-to-example-com`, 
+when you paste in that link it will be pasted as `http://localhost:8080/#location-and-directions`, 
 not just `http://localhost:8080`.
 
 Any good website used for reference purposes should use descriptive anchors like this. Vuepress
