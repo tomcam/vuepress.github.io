@@ -42,7 +42,8 @@ extensions
 * [How to create a custom VuePress theme with Vuetify](https://medium.com/vue-mastery/how-to-create-a-custom-vuepress-theme-with-vuetify-651b7d7e5092)
 
 ## Tutorials
-*  [Zero to Deploy: Build a Documentation System with VuePress](https://scotch.io/tutorials/zero-to-deploy-build-a-documentation-system-with-vue-and-vuepress)
+* [Zero to Deploy: Build a Documentation System with VuePress](https://scotch.io/tutorials/zero-to-deploy-build-a-documentation-system-with-vue-and-vuepress)
+* [Learn HTML Free – Basic HTML Codes for Beginners](https://www.websiteplanet.com/blog/html-guide-beginners/)
 
 ## SEO and organizing your site
 *  Google Search Engine Optimization (SEO) Starter Guide: [Organize your site hierarchy](https://support.google.com/webmasters/answer/7451184/#hierarchy)
