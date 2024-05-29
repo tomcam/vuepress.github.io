@@ -12,7 +12,7 @@ This section shows you how to create a site using VuePress and deploy it using G
 
 ## Create a GitHub repository
 
-* If you haven't already done so, create a free account in [GitHub](https://github.com/).
+* If you haven't already done so, create a free account on [GitHub](https://github.com/).
 
 Create a repository named `vpdemo1` like this:
 
@@ -124,7 +124,7 @@ npm init --force
 ```
 
 The `--force` option applies sensible defaults for this demo. 
-Without it, npm will ask you a bunch questions that aren't relevant here.
+Without it, npm will ask you a bunch of questions that aren't relevant here.
 
 NPM displays the `package.json` it created:
 
@@ -302,7 +302,7 @@ The Deploy log with a long list of actions:
 9:54:07 AM: Finished processing build request in 43.795358607s
 ```
 
-Upon success a few moments later you'll be shown page with inforation about your new site.
+Upon success a few moments later you'll be shown a page with information about your new site.
 It's given some kind of crazy URL like `https://silly-alien-c1776.netlify.com/`.
 
 Click the URL and gaze upon the greatness of your work!
